@@ -1,0 +1,2049 @@
+{
+  "project": {
+    "id": "project_1773342169311_cjm09np81",
+    "type": "Project",
+    "name": "gestion-centre-congres",
+    "description": "New project",
+    "owner": "User",
+    "createdAt": "2026-03-12T19:02:49.312Z",
+    "currentDiagramType": "ClassDiagram",
+    "diagrams": {
+      "ClassDiagram": {
+        "id": "2acf8421-c6c2-47b3-b0c1-c46135249bba",
+        "title": "Class Diagram",
+        "model": {
+          "version": "3.0.0",
+          "type": "ClassDiagram",
+          "size": {
+            "width": 2040,
+            "height": 1400
+          },
+          "interactive": {
+            "elements": {},
+            "relationships": {}
+          },
+          "elements": {
+            "5e74b145-0e21-464d-a2e5-89fdca9d4f39": {
+              "id": "5e74b145-0e21-464d-a2e5-89fdca9d4f39",
+              "name": "Gestionnaire",
+              "type": "Class",
+              "owner": null,
+              "bounds": {
+                "x": -700,
+                "y": -370,
+                "width": 160,
+                "height": 130
+              },
+              "attributes": [
+                "7c86d3bb-3835-48f1-b7c7-300896055cb4",
+                "b525cb79-1020-49f7-a6c6-fd94df76cb3c",
+                "66276902-88ee-4b3c-b44e-93bb2097fd35"
+              ],
+              "methods": []
+            },
+            "7c86d3bb-3835-48f1-b7c7-300896055cb4": {
+              "id": "7c86d3bb-3835-48f1-b7c7-300896055cb4",
+              "name": "nom",
+              "type": "ClassAttribute",
+              "owner": "5e74b145-0e21-464d-a2e5-89fdca9d4f39",
+              "bounds": {
+                "x": -699.5,
+                "y": -329.5,
+                "width": 159,
+                "height": 30
+              },
+              "code": "",
+              "visibility": "private",
+              "attributeType": "str",
+              "implementationType": "none",
+              "stateMachineId": "",
+              "quantumCircuitId": "",
+              "isOptional": false
+            },
+            "b525cb79-1020-49f7-a6c6-fd94df76cb3c": {
+              "id": "b525cb79-1020-49f7-a6c6-fd94df76cb3c",
+              "name": "prenom",
+              "type": "ClassAttribute",
+              "owner": "5e74b145-0e21-464d-a2e5-89fdca9d4f39",
+              "bounds": {
+                "x": -699.5,
+                "y": -299.5,
+                "width": 159,
+                "height": 30
+              },
+              "code": "",
+              "visibility": "private",
+              "attributeType": "str",
+              "implementationType": "none",
+              "stateMachineId": "",
+              "quantumCircuitId": "",
+              "isOptional": false
+            },
+            "66276902-88ee-4b3c-b44e-93bb2097fd35": {
+              "id": "66276902-88ee-4b3c-b44e-93bb2097fd35",
+              "name": "email",
+              "type": "ClassAttribute",
+              "owner": "5e74b145-0e21-464d-a2e5-89fdca9d4f39",
+              "bounds": {
+                "x": -699.5,
+                "y": -269.5,
+                "width": 159,
+                "height": 30
+              },
+              "code": "",
+              "visibility": "private",
+              "attributeType": "str",
+              "implementationType": "none",
+              "stateMachineId": "",
+              "quantumCircuitId": "",
+              "isOptional": false
+            },
+            "83aca30b-b31a-4b50-a2d8-c1a5286efb5f": {
+              "id": "83aca30b-b31a-4b50-a2d8-c1a5286efb5f",
+              "name": "CentreCongres",
+              "type": "Class",
+              "owner": null,
+              "bounds": {
+                "x": -410,
+                "y": -400,
+                "width": 260,
+                "height": 220
+              },
+              "attributes": [
+                "b739fab6-04a7-4d09-a5b4-36a5699231f4",
+                "5f61ffd5-199e-422a-b41b-9d76cc91aa67",
+                "01c8c429-a895-40ef-acad-a218a26333da"
+              ],
+              "methods": [
+                "1911d856-91f6-40e0-b00e-3945cd48ca48",
+                "781dc47d-b0de-4452-9dc4-5e5f38383152",
+                "2d93edfc-6654-4f36-9aa3-51aa297e9986"
+              ]
+            },
+            "b739fab6-04a7-4d09-a5b4-36a5699231f4": {
+              "id": "b739fab6-04a7-4d09-a5b4-36a5699231f4",
+              "name": "nom",
+              "type": "ClassAttribute",
+              "owner": "83aca30b-b31a-4b50-a2d8-c1a5286efb5f",
+              "bounds": {
+                "x": -409.5,
+                "y": -359.5,
+                "width": 259,
+                "height": 30
+              },
+              "code": "",
+              "visibility": "private",
+              "attributeType": "str",
+              "implementationType": "none",
+              "stateMachineId": "",
+              "quantumCircuitId": "",
+              "isOptional": false
+            },
+            "5f61ffd5-199e-422a-b41b-9d76cc91aa67": {
+              "id": "5f61ffd5-199e-422a-b41b-9d76cc91aa67",
+              "name": "adresse",
+              "type": "ClassAttribute",
+              "owner": "83aca30b-b31a-4b50-a2d8-c1a5286efb5f",
+              "bounds": {
+                "x": -409.5,
+                "y": -329.5,
+                "width": 259,
+                "height": 30
+              },
+              "code": "",
+              "visibility": "private",
+              "attributeType": "str",
+              "implementationType": "none",
+              "stateMachineId": "",
+              "quantumCircuitId": "",
+              "isOptional": false
+            },
+            "01c8c429-a895-40ef-acad-a218a26333da": {
+              "id": "01c8c429-a895-40ef-acad-a218a26333da",
+              "name": "description",
+              "type": "ClassAttribute",
+              "owner": "83aca30b-b31a-4b50-a2d8-c1a5286efb5f",
+              "bounds": {
+                "x": -409.5,
+                "y": -299.5,
+                "width": 259,
+                "height": 30
+              },
+              "code": "",
+              "visibility": "private",
+              "attributeType": "str",
+              "implementationType": "none",
+              "stateMachineId": "",
+              "quantumCircuitId": "",
+              "isOptional": false
+            },
+            "1911d856-91f6-40e0-b00e-3945cd48ca48": {
+              "id": "1911d856-91f6-40e0-b00e-3945cd48ca48",
+              "name": "+ ajouterElement(e: Element)",
+              "type": "ClassMethod",
+              "owner": "83aca30b-b31a-4b50-a2d8-c1a5286efb5f",
+              "bounds": {
+                "x": -409.5,
+                "y": -269.5,
+                "width": 259,
+                "height": 30
+              },
+              "code": "",
+              "visibility": "public",
+              "attributeType": "str",
+              "implementationType": "none",
+              "stateMachineId": "",
+              "quantumCircuitId": "",
+              "isOptional": false
+            },
+            "781dc47d-b0de-4452-9dc4-5e5f38383152": {
+              "id": "781dc47d-b0de-4452-9dc4-5e5f38383152",
+              "name": "+ supprimerElement(e: Element)",
+              "type": "ClassMethod",
+              "owner": "83aca30b-b31a-4b50-a2d8-c1a5286efb5f",
+              "bounds": {
+                "x": -409.5,
+                "y": -239.5,
+                "width": 259,
+                "height": 30
+              },
+              "code": "",
+              "visibility": "public",
+              "attributeType": "str",
+              "implementationType": "none",
+              "stateMachineId": "",
+              "quantumCircuitId": "",
+              "isOptional": false
+            },
+            "2d93edfc-6654-4f36-9aa3-51aa297e9986": {
+              "id": "2d93edfc-6654-4f36-9aa3-51aa297e9986",
+              "name": "+ getElements(): Element",
+              "type": "ClassMethod",
+              "owner": "83aca30b-b31a-4b50-a2d8-c1a5286efb5f",
+              "bounds": {
+                "x": -409.5,
+                "y": -209.5,
+                "width": 259,
+                "height": 30
+              },
+              "code": "",
+              "visibility": "public",
+              "attributeType": "str",
+              "implementationType": "none",
+              "stateMachineId": "",
+              "quantumCircuitId": "",
+              "isOptional": false
+            },
+            "91616ec5-22f7-4cf5-a68b-52d534c9c61d": {
+              "id": "91616ec5-22f7-4cf5-a68b-52d534c9c61d",
+              "name": "Element",
+              "type": "Class",
+              "owner": null,
+              "bounds": {
+                "x": 60,
+                "y": -410,
+                "width": 420,
+                "height": 280
+              },
+              "attributes": [
+                "eb582077-6cb1-480e-96d8-d939aa2b526a",
+                "63723a52-8156-40c0-b61d-933aef21f24f",
+                "df17414c-af66-45bd-975e-66d3b40e34b7",
+                "55df41ce-6389-4f0f-9c37-e8020c0c64ab",
+                "54e8d7f1-dcc9-42c1-b780-d0fe62b7fe4b"
+              ],
+              "methods": [
+                "b03a0562-9f88-468b-9635-88adaa231acb",
+                "5ed48f73-9a9c-4d73-95e0-de219e2b0592",
+                "4ecdd6e2-4d5e-4967-9dff-98f3b2412607"
+              ]
+            },
+            "eb582077-6cb1-480e-96d8-d939aa2b526a": {
+              "id": "eb582077-6cb1-480e-96d8-d939aa2b526a",
+              "name": "nom",
+              "type": "ClassAttribute",
+              "owner": "91616ec5-22f7-4cf5-a68b-52d534c9c61d",
+              "bounds": {
+                "x": 60.5,
+                "y": -369.5,
+                "width": 419,
+                "height": 30
+              },
+              "code": "",
+              "visibility": "private",
+              "attributeType": "str",
+              "implementationType": "none",
+              "stateMachineId": "",
+              "quantumCircuitId": "",
+              "isOptional": false
+            },
+            "63723a52-8156-40c0-b61d-933aef21f24f": {
+              "id": "63723a52-8156-40c0-b61d-933aef21f24f",
+              "name": "capaciteMax",
+              "type": "ClassAttribute",
+              "owner": "91616ec5-22f7-4cf5-a68b-52d534c9c61d",
+              "bounds": {
+                "x": 60.5,
+                "y": -339.5,
+                "width": 419,
+                "height": 30
+              },
+              "code": "",
+              "visibility": "private",
+              "attributeType": "int",
+              "implementationType": "none",
+              "stateMachineId": "",
+              "quantumCircuitId": "",
+              "isOptional": false
+            },
+            "df17414c-af66-45bd-975e-66d3b40e34b7": {
+              "id": "df17414c-af66-45bd-975e-66d3b40e34b7",
+              "name": "dureeMin",
+              "type": "ClassAttribute",
+              "owner": "91616ec5-22f7-4cf5-a68b-52d534c9c61d",
+              "bounds": {
+                "x": 60.5,
+                "y": -309.5,
+                "width": 419,
+                "height": 30
+              },
+              "code": "",
+              "visibility": "private",
+              "attributeType": "int",
+              "implementationType": "none",
+              "stateMachineId": "",
+              "quantumCircuitId": "",
+              "isOptional": false
+            },
+            "55df41ce-6389-4f0f-9c37-e8020c0c64ab": {
+              "id": "55df41ce-6389-4f0f-9c37-e8020c0c64ab",
+              "name": "statut",
+              "type": "ClassAttribute",
+              "owner": "91616ec5-22f7-4cf5-a68b-52d534c9c61d",
+              "bounds": {
+                "x": 60.5,
+                "y": -279.5,
+                "width": 419,
+                "height": 30
+              },
+              "code": "",
+              "visibility": "private",
+              "attributeType": "bool",
+              "implementationType": "none",
+              "stateMachineId": "",
+              "quantumCircuitId": "",
+              "isOptional": false
+            },
+            "54e8d7f1-dcc9-42c1-b780-d0fe62b7fe4b": {
+              "id": "54e8d7f1-dcc9-42c1-b780-d0fe62b7fe4b",
+              "name": "jourInterdit",
+              "type": "ClassAttribute",
+              "owner": "91616ec5-22f7-4cf5-a68b-52d534c9c61d",
+              "bounds": {
+                "x": 60.5,
+                "y": -249.5,
+                "width": 419,
+                "height": 30
+              },
+              "code": "",
+              "visibility": "private",
+              "attributeType": "JourSemaine",
+              "implementationType": "none",
+              "stateMachineId": "",
+              "quantumCircuitId": "",
+              "isOptional": false
+            },
+            "b03a0562-9f88-468b-9635-88adaa231acb": {
+              "id": "b03a0562-9f88-468b-9635-88adaa231acb",
+              "name": "+ estDisponible(dateDebut: date, dateFin: date): boolean",
+              "type": "ClassMethod",
+              "owner": "91616ec5-22f7-4cf5-a68b-52d534c9c61d",
+              "bounds": {
+                "x": 60.5,
+                "y": -219.5,
+                "width": 419,
+                "height": 30
+              },
+              "code": "",
+              "visibility": "public",
+              "attributeType": "str",
+              "implementationType": "none",
+              "stateMachineId": "",
+              "quantumCircuitId": "",
+              "isOptional": false
+            },
+            "5ed48f73-9a9c-4d73-95e0-de219e2b0592": {
+              "id": "5ed48f73-9a9c-4d73-95e0-de219e2b0592",
+              "name": "+ ajouterIndisponibilite(i: Indisponibilite)",
+              "type": "ClassMethod",
+              "owner": "91616ec5-22f7-4cf5-a68b-52d534c9c61d",
+              "bounds": {
+                "x": 60.5,
+                "y": -189.5,
+                "width": 419,
+                "height": 30
+              },
+              "code": "",
+              "visibility": "public",
+              "attributeType": "str",
+              "implementationType": "none",
+              "stateMachineId": "",
+              "quantumCircuitId": "",
+              "isOptional": false
+            },
+            "4ecdd6e2-4d5e-4967-9dff-98f3b2412607": {
+              "id": "4ecdd6e2-4d5e-4967-9dff-98f3b2412607",
+              "name": "+ calculerTarif(dateDebut: date, dateFin: date): double",
+              "type": "ClassMethod",
+              "owner": "91616ec5-22f7-4cf5-a68b-52d534c9c61d",
+              "bounds": {
+                "x": 60.5,
+                "y": -159.5,
+                "width": 419,
+                "height": 30
+              },
+              "code": "",
+              "visibility": "public",
+              "attributeType": "str",
+              "implementationType": "none",
+              "stateMachineId": "",
+              "quantumCircuitId": "",
+              "isOptional": false
+            },
+            "3d655b4a-a2c4-4e5c-834c-bf5e998abc9e": {
+              "id": "3d655b4a-a2c4-4e5c-834c-bf5e998abc9e",
+              "name": "Evenement",
+              "type": "Class",
+              "owner": null,
+              "bounds": {
+                "x": -810,
+                "y": -80,
+                "width": 330,
+                "height": 340
+              },
+              "attributes": [
+                "f57ffda0-cb0d-44b5-9655-b19b7c26a458",
+                "5f519ac8-302f-4856-ad12-2046a24a5db6",
+                "9fc41fc4-376f-45fc-b87e-7084759ad218",
+                "1b11d857-28c7-4aa4-add5-f4a660be0fb9",
+                "1f72159b-2032-401b-98da-cd7baf2b3ae6",
+                "e3d624cb-54bc-4669-b517-1384258feee6"
+              ],
+              "methods": [
+                "35a60619-4c64-49f0-9cfe-b7689e6b5dee",
+                "8ad99dd7-afca-4d5c-8b68-97f5b4daa929",
+                "e5ed2359-abb3-48cd-89c4-863be6a7b650",
+                "8a82937f-c50b-48b5-ae46-a3b31ee45cfc"
+              ]
+            },
+            "f57ffda0-cb0d-44b5-9655-b19b7c26a458": {
+              "id": "f57ffda0-cb0d-44b5-9655-b19b7c26a458",
+              "name": "nom",
+              "type": "ClassAttribute",
+              "owner": "3d655b4a-a2c4-4e5c-834c-bf5e998abc9e",
+              "bounds": {
+                "x": -809.5,
+                "y": -39.5,
+                "width": 329,
+                "height": 30
+              },
+              "code": "",
+              "visibility": "private",
+              "attributeType": "str",
+              "implementationType": "none",
+              "stateMachineId": "",
+              "quantumCircuitId": "",
+              "isOptional": false
+            },
+            "5f519ac8-302f-4856-ad12-2046a24a5db6": {
+              "id": "5f519ac8-302f-4856-ad12-2046a24a5db6",
+              "name": "description",
+              "type": "ClassAttribute",
+              "owner": "3d655b4a-a2c4-4e5c-834c-bf5e998abc9e",
+              "bounds": {
+                "x": -809.5,
+                "y": -9.5,
+                "width": 329,
+                "height": 30
+              },
+              "code": "",
+              "visibility": "private",
+              "attributeType": "str",
+              "implementationType": "none",
+              "stateMachineId": "",
+              "quantumCircuitId": "",
+              "isOptional": false
+            },
+            "9fc41fc4-376f-45fc-b87e-7084759ad218": {
+              "id": "9fc41fc4-376f-45fc-b87e-7084759ad218",
+              "name": "nbParticipant",
+              "type": "ClassAttribute",
+              "owner": "3d655b4a-a2c4-4e5c-834c-bf5e998abc9e",
+              "bounds": {
+                "x": -809.5,
+                "y": 20.5,
+                "width": 329,
+                "height": 30
+              },
+              "code": "",
+              "visibility": "private",
+              "attributeType": "int",
+              "implementationType": "none",
+              "stateMachineId": "",
+              "quantumCircuitId": "",
+              "isOptional": false
+            },
+            "1b11d857-28c7-4aa4-add5-f4a660be0fb9": {
+              "id": "1b11d857-28c7-4aa4-add5-f4a660be0fb9",
+              "name": "emailReferant",
+              "type": "ClassAttribute",
+              "owner": "3d655b4a-a2c4-4e5c-834c-bf5e998abc9e",
+              "bounds": {
+                "x": -809.5,
+                "y": 50.5,
+                "width": 329,
+                "height": 30
+              },
+              "code": "",
+              "visibility": "private",
+              "attributeType": "str",
+              "implementationType": "none",
+              "stateMachineId": "",
+              "quantumCircuitId": "",
+              "isOptional": false
+            },
+            "1f72159b-2032-401b-98da-cd7baf2b3ae6": {
+              "id": "1f72159b-2032-401b-98da-cd7baf2b3ae6",
+              "name": "dateDebut",
+              "type": "ClassAttribute",
+              "owner": "3d655b4a-a2c4-4e5c-834c-bf5e998abc9e",
+              "bounds": {
+                "x": -809.5,
+                "y": 80.5,
+                "width": 329,
+                "height": 30
+              },
+              "code": "",
+              "visibility": "private",
+              "attributeType": "date",
+              "implementationType": "none",
+              "stateMachineId": "",
+              "quantumCircuitId": "",
+              "isOptional": false
+            },
+            "e3d624cb-54bc-4669-b517-1384258feee6": {
+              "id": "e3d624cb-54bc-4669-b517-1384258feee6",
+              "name": "dateFin",
+              "type": "ClassAttribute",
+              "owner": "3d655b4a-a2c4-4e5c-834c-bf5e998abc9e",
+              "bounds": {
+                "x": -809.5,
+                "y": 110.5,
+                "width": 329,
+                "height": 30
+              },
+              "code": "",
+              "visibility": "private",
+              "attributeType": "date",
+              "implementationType": "none",
+              "stateMachineId": "",
+              "quantumCircuitId": "",
+              "isOptional": false
+            },
+            "35a60619-4c64-49f0-9cfe-b7689e6b5dee": {
+              "id": "35a60619-4c64-49f0-9cfe-b7689e6b5dee",
+              "name": "+ eventPrevus(): Evenement",
+              "type": "ClassMethod",
+              "owner": "3d655b4a-a2c4-4e5c-834c-bf5e998abc9e",
+              "bounds": {
+                "x": -809.5,
+                "y": 140.5,
+                "width": 329,
+                "height": 30
+              },
+              "code": "",
+              "visibility": "public",
+              "attributeType": "str",
+              "implementationType": "none",
+              "stateMachineId": "",
+              "quantumCircuitId": "",
+              "isOptional": false
+            },
+            "8ad99dd7-afca-4d5c-8b68-97f5b4daa929": {
+              "id": "8ad99dd7-afca-4d5c-8b68-97f5b4daa929",
+              "name": "+ eventPasses():Evenement",
+              "type": "ClassMethod",
+              "owner": "3d655b4a-a2c4-4e5c-834c-bf5e998abc9e",
+              "bounds": {
+                "x": -809.5,
+                "y": 170.5,
+                "width": 329,
+                "height": 30
+              },
+              "code": "",
+              "visibility": "public",
+              "attributeType": "str",
+              "implementationType": "none",
+              "stateMachineId": "",
+              "quantumCircuitId": "",
+              "isOptional": false
+            },
+            "e5ed2359-abb3-48cd-89c4-863be6a7b650": {
+              "id": "e5ed2359-abb3-48cd-89c4-863be6a7b650",
+              "name": "+ ajouterReservation(r: Reservation)",
+              "type": "ClassMethod",
+              "owner": "3d655b4a-a2c4-4e5c-834c-bf5e998abc9e",
+              "bounds": {
+                "x": -809.5,
+                "y": 200.5,
+                "width": 329,
+                "height": 30
+              },
+              "code": "",
+              "visibility": "public",
+              "attributeType": "str",
+              "implementationType": "none",
+              "stateMachineId": "",
+              "quantumCircuitId": "",
+              "isOptional": false
+            },
+            "8a82937f-c50b-48b5-ae46-a3b31ee45cfc": {
+              "id": "8a82937f-c50b-48b5-ae46-a3b31ee45cfc",
+              "name": "+ getReservations(): Reservation",
+              "type": "ClassMethod",
+              "owner": "3d655b4a-a2c4-4e5c-834c-bf5e998abc9e",
+              "bounds": {
+                "x": -809.5,
+                "y": 230.5,
+                "width": 329,
+                "height": 30
+              },
+              "code": "",
+              "visibility": "public",
+              "attributeType": "str",
+              "implementationType": "none",
+              "stateMachineId": "",
+              "quantumCircuitId": "",
+              "isOptional": false
+            },
+            "441dd40b-0f37-4d2f-a603-864374d71ace": {
+              "id": "441dd40b-0f37-4d2f-a603-864374d71ace",
+              "name": "Reservation",
+              "type": "Class",
+              "owner": null,
+              "bounds": {
+                "x": -330,
+                "y": -60,
+                "width": 310,
+                "height": 340
+              },
+              "attributes": [
+                "e919915c-cb45-4085-99e3-1479dcb7ca7f",
+                "069a947b-f52e-41b7-a50b-8bb7c635e98e",
+                "843af484-8f38-4c21-a9f4-cec2c70d13c9",
+                "f716f45d-0ca7-4537-ba94-f9b051247db0"
+              ],
+              "methods": [
+                "1b8186a8-550d-4a6d-bd3b-192953652be1",
+                "4e7ebc0d-4ce5-4f38-9ac5-6e75e92e4bea",
+                "a3c02dac-27b5-490d-988d-02495abd3582",
+                "fdf4f089-ea0f-4fd6-9445-cbc4828546c4",
+                "da24271a-7830-4f62-a77c-40c1733156e0",
+                "1e155548-4d34-42bf-a0dd-f8639f45b8d8"
+              ]
+            },
+            "e919915c-cb45-4085-99e3-1479dcb7ca7f": {
+              "id": "e919915c-cb45-4085-99e3-1479dcb7ca7f",
+              "name": "dateDeb",
+              "type": "ClassAttribute",
+              "owner": "441dd40b-0f37-4d2f-a603-864374d71ace",
+              "bounds": {
+                "x": -329.5,
+                "y": -19.5,
+                "width": 309,
+                "height": 30
+              },
+              "code": "",
+              "visibility": "private",
+              "attributeType": "date",
+              "implementationType": "none",
+              "stateMachineId": "",
+              "quantumCircuitId": "",
+              "isOptional": false
+            },
+            "069a947b-f52e-41b7-a50b-8bb7c635e98e": {
+              "id": "069a947b-f52e-41b7-a50b-8bb7c635e98e",
+              "name": "dateFin",
+              "type": "ClassAttribute",
+              "owner": "441dd40b-0f37-4d2f-a603-864374d71ace",
+              "bounds": {
+                "x": -329.5,
+                "y": 10.5,
+                "width": 309,
+                "height": 30
+              },
+              "code": "",
+              "visibility": "private",
+              "attributeType": "date",
+              "implementationType": "none",
+              "stateMachineId": "",
+              "quantumCircuitId": "",
+              "isOptional": false
+            },
+            "843af484-8f38-4c21-a9f4-cec2c70d13c9": {
+              "id": "843af484-8f38-4c21-a9f4-cec2c70d13c9",
+              "name": "statut",
+              "type": "ClassAttribute",
+              "owner": "441dd40b-0f37-4d2f-a603-864374d71ace",
+              "bounds": {
+                "x": -329.5,
+                "y": 40.5,
+                "width": 309,
+                "height": 30
+              },
+              "code": "",
+              "visibility": "private",
+              "attributeType": "ReservationStatut",
+              "implementationType": "none",
+              "stateMachineId": "",
+              "quantumCircuitId": "",
+              "isOptional": false
+            },
+            "f716f45d-0ca7-4537-ba94-f9b051247db0": {
+              "id": "f716f45d-0ca7-4537-ba94-f9b051247db0",
+              "name": "dateLimiteconfirmation",
+              "type": "ClassAttribute",
+              "owner": "441dd40b-0f37-4d2f-a603-864374d71ace",
+              "bounds": {
+                "x": -329.5,
+                "y": 70.5,
+                "width": 309,
+                "height": 30
+              },
+              "code": "",
+              "visibility": "private",
+              "attributeType": "date",
+              "implementationType": "none",
+              "stateMachineId": "",
+              "quantumCircuitId": "",
+              "isOptional": false
+            },
+            "1b8186a8-550d-4a6d-bd3b-192953652be1": {
+              "id": "1b8186a8-550d-4a6d-bd3b-192953652be1",
+              "name": "confirmer()",
+              "type": "ClassMethod",
+              "owner": "441dd40b-0f37-4d2f-a603-864374d71ace",
+              "bounds": {
+                "x": -329.5,
+                "y": 100.5,
+                "width": 309,
+                "height": 30
+              },
+              "code": "",
+              "visibility": "public",
+              "attributeType": "str",
+              "implementationType": "none",
+              "stateMachineId": "",
+              "quantumCircuitId": "",
+              "isOptional": false
+            },
+            "4e7ebc0d-4ce5-4f38-9ac5-6e75e92e4bea": {
+              "id": "4e7ebc0d-4ce5-4f38-9ac5-6e75e92e4bea",
+              "name": "annuler()",
+              "type": "ClassMethod",
+              "owner": "441dd40b-0f37-4d2f-a603-864374d71ace",
+              "bounds": {
+                "x": -329.5,
+                "y": 130.5,
+                "width": 309,
+                "height": 30
+              },
+              "code": "",
+              "visibility": "public",
+              "attributeType": "str",
+              "implementationType": "none",
+              "stateMachineId": "",
+              "quantumCircuitId": "",
+              "isOptional": false
+            },
+            "a3c02dac-27b5-490d-988d-02495abd3582": {
+              "id": "a3c02dac-27b5-490d-988d-02495abd3582",
+              "name": "+ modifier(dateDebut, dateFin)",
+              "type": "ClassMethod",
+              "owner": "441dd40b-0f37-4d2f-a603-864374d71ace",
+              "bounds": {
+                "x": -329.5,
+                "y": 160.5,
+                "width": 309,
+                "height": 30
+              },
+              "code": "",
+              "visibility": "public",
+              "attributeType": "str",
+              "implementationType": "none",
+              "stateMachineId": "",
+              "quantumCircuitId": "",
+              "isOptional": false
+            },
+            "fdf4f089-ea0f-4fd6-9445-cbc4828546c4": {
+              "id": "fdf4f089-ea0f-4fd6-9445-cbc4828546c4",
+              "name": "+ calculerCoutTotal(): double",
+              "type": "ClassMethod",
+              "owner": "441dd40b-0f37-4d2f-a603-864374d71ace",
+              "bounds": {
+                "x": -329.5,
+                "y": 190.5,
+                "width": 309,
+                "height": 30
+              },
+              "code": "",
+              "visibility": "public",
+              "attributeType": "str",
+              "implementationType": "none",
+              "stateMachineId": "",
+              "quantumCircuitId": "",
+              "isOptional": false
+            },
+            "da24271a-7830-4f62-a77c-40c1733156e0": {
+              "id": "da24271a-7830-4f62-a77c-40c1733156e0",
+              "name": "+ ajouterSupplement(s: Supplement)",
+              "type": "ClassMethod",
+              "owner": "441dd40b-0f37-4d2f-a603-864374d71ace",
+              "bounds": {
+                "x": -329.5,
+                "y": 220.5,
+                "width": 309,
+                "height": 30
+              },
+              "code": "",
+              "visibility": "public",
+              "attributeType": "str",
+              "implementationType": "none",
+              "stateMachineId": "",
+              "quantumCircuitId": "",
+              "isOptional": false
+            },
+            "1e155548-4d34-42bf-a0dd-f8639f45b8d8": {
+              "id": "1e155548-4d34-42bf-a0dd-f8639f45b8d8",
+              "name": "+ retirerSupplement(s: Supplement)",
+              "type": "ClassMethod",
+              "owner": "441dd40b-0f37-4d2f-a603-864374d71ace",
+              "bounds": {
+                "x": -329.5,
+                "y": 250.5,
+                "width": 309,
+                "height": 30
+              },
+              "code": "",
+              "visibility": "public",
+              "attributeType": "str",
+              "implementationType": "none",
+              "stateMachineId": "",
+              "quantumCircuitId": "",
+              "isOptional": false
+            },
+            "af73d584-fac6-47a6-a544-f9593f7ab595": {
+              "id": "af73d584-fac6-47a6-a544-f9593f7ab595",
+              "name": "Supplement",
+              "type": "AbstractClass",
+              "owner": null,
+              "bounds": {
+                "x": -240,
+                "y": 350,
+                "width": 180,
+                "height": 170
+              },
+              "attributes": [
+                "6373520f-f4f5-4a6f-94c3-bb1da6b0c0c1",
+                "c3917f81-029a-4700-a13f-30ae0f458b14",
+                "eb0bff91-2fa5-45cf-b624-c8974d6455b3"
+              ],
+              "methods": [
+                "fb71258d-f37f-45f8-84f7-51ef239b4f09"
+              ]
+            },
+            "6373520f-f4f5-4a6f-94c3-bb1da6b0c0c1": {
+              "id": "6373520f-f4f5-4a6f-94c3-bb1da6b0c0c1",
+              "name": "nom",
+              "type": "ClassAttribute",
+              "owner": "af73d584-fac6-47a6-a544-f9593f7ab595",
+              "bounds": {
+                "x": -239.5,
+                "y": 390.5,
+                "width": 179,
+                "height": 30
+              },
+              "code": "",
+              "visibility": "private",
+              "attributeType": "str",
+              "implementationType": "none",
+              "stateMachineId": "",
+              "quantumCircuitId": "",
+              "isOptional": false
+            },
+            "c3917f81-029a-4700-a13f-30ae0f458b14": {
+              "id": "c3917f81-029a-4700-a13f-30ae0f458b14",
+              "name": "quantiteMax",
+              "type": "ClassAttribute",
+              "owner": "af73d584-fac6-47a6-a544-f9593f7ab595",
+              "bounds": {
+                "x": -239.5,
+                "y": 420.5,
+                "width": 179,
+                "height": 30
+              },
+              "code": "",
+              "visibility": "private",
+              "attributeType": "int",
+              "implementationType": "none",
+              "stateMachineId": "",
+              "quantumCircuitId": "",
+              "isOptional": false
+            },
+            "eb0bff91-2fa5-45cf-b624-c8974d6455b3": {
+              "id": "eb0bff91-2fa5-45cf-b624-c8974d6455b3",
+              "name": "prix",
+              "type": "ClassAttribute",
+              "owner": "af73d584-fac6-47a6-a544-f9593f7ab595",
+              "bounds": {
+                "x": -239.5,
+                "y": 450.5,
+                "width": 179,
+                "height": 30
+              },
+              "code": "",
+              "visibility": "private",
+              "attributeType": "float",
+              "implementationType": "none",
+              "stateMachineId": "",
+              "quantumCircuitId": "",
+              "isOptional": false
+            },
+            "fb71258d-f37f-45f8-84f7-51ef239b4f09": {
+              "id": "fb71258d-f37f-45f8-84f7-51ef239b4f09",
+              "name": "+ getPrix(): double",
+              "type": "ClassMethod",
+              "owner": "af73d584-fac6-47a6-a544-f9593f7ab595",
+              "bounds": {
+                "x": -239.5,
+                "y": 480.5,
+                "width": 179,
+                "height": 30
+              },
+              "code": "",
+              "visibility": "public",
+              "attributeType": "str",
+              "implementationType": "none",
+              "stateMachineId": "",
+              "quantumCircuitId": "",
+              "isOptional": false
+            },
+            "3bca7c9d-2b1b-49d8-b5c0-662aab4a7edc": {
+              "id": "3bca7c9d-2b1b-49d8-b5c0-662aab4a7edc",
+              "name": "Materiel",
+              "type": "Class",
+              "owner": null,
+              "bounds": {
+                "x": -140,
+                "y": 580,
+                "width": 290,
+                "height": 100
+              },
+              "attributes": [
+                "31706f39-f3fb-439e-94b7-f3c3a486191f"
+              ],
+              "methods": [
+                "29868e90-42d3-4827-b2f2-e141c72d979b"
+              ]
+            },
+            "31706f39-f3fb-439e-94b7-f3c3a486191f": {
+              "id": "31706f39-f3fb-439e-94b7-f3c3a486191f",
+              "name": "quantiteDispo",
+              "type": "ClassAttribute",
+              "owner": "3bca7c9d-2b1b-49d8-b5c0-662aab4a7edc",
+              "bounds": {
+                "x": -139.5,
+                "y": 620.5,
+                "width": 289,
+                "height": 30
+              },
+              "code": "",
+              "visibility": "private",
+              "attributeType": "int",
+              "implementationType": "none",
+              "stateMachineId": "",
+              "quantumCircuitId": "",
+              "isOptional": false
+            },
+            "29868e90-42d3-4827-b2f2-e141c72d979b": {
+              "id": "29868e90-42d3-4827-b2f2-e141c72d979b",
+              "name": "+ estDisponible(quantite: int): boolean",
+              "type": "ClassMethod",
+              "owner": "3bca7c9d-2b1b-49d8-b5c0-662aab4a7edc",
+              "bounds": {
+                "x": -139.5,
+                "y": 650.5,
+                "width": 289,
+                "height": 30
+              },
+              "code": "",
+              "visibility": "public",
+              "attributeType": "str",
+              "implementationType": "none",
+              "stateMachineId": "",
+              "quantumCircuitId": "",
+              "isOptional": false
+            },
+            "c72baabf-42be-4626-8a9d-f7ff0cb28544": {
+              "id": "c72baabf-42be-4626-8a9d-f7ff0cb28544",
+              "name": "Prestation",
+              "type": "Class",
+              "owner": null,
+              "bounds": {
+                "x": -520,
+                "y": 580,
+                "width": 320,
+                "height": 100
+              },
+              "attributes": [
+                "7ba6c41c-d3d0-4fea-bce0-b094f671ad92"
+              ],
+              "methods": [
+                "85e6633d-c100-427d-80e7-126dfd0b74a9"
+              ]
+            },
+            "7ba6c41c-d3d0-4fea-bce0-b094f671ad92": {
+              "id": "7ba6c41c-d3d0-4fea-bce0-b094f671ad92",
+              "name": "- typePrestation",
+              "type": "ClassAttribute",
+              "owner": "c72baabf-42be-4626-8a9d-f7ff0cb28544",
+              "bounds": {
+                "x": -519.5,
+                "y": 620.5,
+                "width": 319,
+                "height": 30
+              },
+              "code": "",
+              "visibility": "public",
+              "attributeType": "str",
+              "implementationType": "none",
+              "stateMachineId": "",
+              "quantumCircuitId": "",
+              "isOptional": false
+            },
+            "85e6633d-c100-427d-80e7-126dfd0b74a9": {
+              "id": "85e6633d-c100-427d-80e7-126dfd0b74a9",
+              "name": "+ calculerCout(nbParticipants: int): double",
+              "type": "ClassMethod",
+              "owner": "c72baabf-42be-4626-8a9d-f7ff0cb28544",
+              "bounds": {
+                "x": -519.5,
+                "y": 650.5,
+                "width": 319,
+                "height": 30
+              },
+              "code": "",
+              "visibility": "public",
+              "attributeType": "str",
+              "implementationType": "none",
+              "stateMachineId": "",
+              "quantumCircuitId": "",
+              "isOptional": false
+            },
+            "05d14bb2-dbf2-4a62-9b59-1025446b7dc8": {
+              "id": "05d14bb2-dbf2-4a62-9b59-1025446b7dc8",
+              "name": "Saison",
+              "type": "Enumeration",
+              "owner": null,
+              "bounds": {
+                "x": 510,
+                "y": 140,
+                "width": 160,
+                "height": 140
+              },
+              "attributes": [
+                "504a3df3-c4ce-4264-9379-3ccdb3a5d43c",
+                "5ac2924a-432e-4aa3-8703-00757f9a3c04",
+                "fcad864c-1108-4637-8f72-fcf462f638e6"
+              ],
+              "methods": []
+            },
+            "504a3df3-c4ce-4264-9379-3ccdb3a5d43c": {
+              "id": "504a3df3-c4ce-4264-9379-3ccdb3a5d43c",
+              "name": "HAUTE",
+              "type": "ClassAttribute",
+              "owner": "05d14bb2-dbf2-4a62-9b59-1025446b7dc8",
+              "bounds": {
+                "x": 510.5,
+                "y": 190.5,
+                "width": 159,
+                "height": 30
+              },
+              "code": "",
+              "visibility": "public",
+              "attributeType": "str",
+              "implementationType": "none",
+              "stateMachineId": "",
+              "quantumCircuitId": "",
+              "isOptional": false
+            },
+            "5ac2924a-432e-4aa3-8703-00757f9a3c04": {
+              "id": "5ac2924a-432e-4aa3-8703-00757f9a3c04",
+              "name": "MOYENNE",
+              "type": "ClassAttribute",
+              "owner": "05d14bb2-dbf2-4a62-9b59-1025446b7dc8",
+              "bounds": {
+                "x": 510.5,
+                "y": 220.5,
+                "width": 159,
+                "height": 30
+              },
+              "code": "",
+              "visibility": "public",
+              "attributeType": "str",
+              "implementationType": "none",
+              "stateMachineId": "",
+              "quantumCircuitId": "",
+              "isOptional": false
+            },
+            "fcad864c-1108-4637-8f72-fcf462f638e6": {
+              "id": "fcad864c-1108-4637-8f72-fcf462f638e6",
+              "name": "BASSE",
+              "type": "ClassAttribute",
+              "owner": "05d14bb2-dbf2-4a62-9b59-1025446b7dc8",
+              "bounds": {
+                "x": 510.5,
+                "y": 250.5,
+                "width": 159,
+                "height": 30
+              },
+              "code": "",
+              "visibility": "public",
+              "attributeType": "str",
+              "implementationType": "none",
+              "stateMachineId": "",
+              "quantumCircuitId": "",
+              "isOptional": false
+            },
+            "9f2d5a51-37b0-42a1-9b9f-0ffe4a3e78f0": {
+              "id": "9f2d5a51-37b0-42a1-9b9f-0ffe4a3e78f0",
+              "name": "Tarif",
+              "type": "Class",
+              "owner": null,
+              "bounds": {
+                "x": 620,
+                "y": -300,
+                "width": 200,
+                "height": 160
+              },
+              "attributes": [
+                "13fb67d9-6916-4393-baf5-2b7df99cccc1",
+                "35c50c2f-f37a-42b5-91d5-f34560c077b8"
+              ],
+              "methods": [
+                "c9f0f804-2d6a-4cb3-9064-d714a617d817",
+                "aeaa8fee-c333-4479-9f90-abf67e12e305"
+              ]
+            },
+            "13fb67d9-6916-4393-baf5-2b7df99cccc1": {
+              "id": "13fb67d9-6916-4393-baf5-2b7df99cccc1",
+              "name": "prix",
+              "type": "ClassAttribute",
+              "owner": "9f2d5a51-37b0-42a1-9b9f-0ffe4a3e78f0",
+              "bounds": {
+                "x": 620.5,
+                "y": -259.5,
+                "width": 199,
+                "height": 30
+              },
+              "code": "",
+              "visibility": "private",
+              "attributeType": "str",
+              "implementationType": "none",
+              "stateMachineId": "",
+              "quantumCircuitId": "",
+              "isOptional": false
+            },
+            "35c50c2f-f37a-42b5-91d5-f34560c077b8": {
+              "id": "35c50c2f-f37a-42b5-91d5-f34560c077b8",
+              "name": "saison",
+              "type": "ClassAttribute",
+              "owner": "9f2d5a51-37b0-42a1-9b9f-0ffe4a3e78f0",
+              "bounds": {
+                "x": 620.5,
+                "y": -229.5,
+                "width": 199,
+                "height": 30
+              },
+              "code": "",
+              "visibility": "private",
+              "attributeType": "Saison",
+              "implementationType": "none",
+              "stateMachineId": "",
+              "quantumCircuitId": "",
+              "isOptional": false
+            },
+            "c9f0f804-2d6a-4cb3-9064-d714a617d817": {
+              "id": "c9f0f804-2d6a-4cb3-9064-d714a617d817",
+              "name": "+ getPrix(): double",
+              "type": "ClassMethod",
+              "owner": "9f2d5a51-37b0-42a1-9b9f-0ffe4a3e78f0",
+              "bounds": {
+                "x": 620.5,
+                "y": -199.5,
+                "width": 199,
+                "height": 30
+              },
+              "code": "",
+              "visibility": "public",
+              "attributeType": "str",
+              "implementationType": "none",
+              "stateMachineId": "",
+              "quantumCircuitId": "",
+              "isOptional": false
+            },
+            "aeaa8fee-c333-4479-9f90-abf67e12e305": {
+              "id": "aeaa8fee-c333-4479-9f90-abf67e12e305",
+              "name": "+ setPrix(prix: double)",
+              "type": "ClassMethod",
+              "owner": "9f2d5a51-37b0-42a1-9b9f-0ffe4a3e78f0",
+              "bounds": {
+                "x": 620.5,
+                "y": -169.5,
+                "width": 199,
+                "height": 30
+              },
+              "code": "",
+              "visibility": "public",
+              "attributeType": "str",
+              "implementationType": "none",
+              "stateMachineId": "",
+              "quantumCircuitId": "",
+              "isOptional": false
+            },
+            "12c88b42-623c-47a3-8f91-6dad05d2575a": {
+              "id": "12c88b42-623c-47a3-8f91-6dad05d2575a",
+              "name": "En mettant \ndateDebutIndispo\ndateFinIndispo\non ne gere qu'une seule periode d'indisponibilite.\nD'ou la necessite de la classe Indisponibilite",
+              "type": "Comments",
+              "owner": null,
+              "bounds": {
+                "x": 580,
+                "y": -480,
+                "width": 230,
+                "height": 130
+              }
+            },
+            "6df824e3-c8a1-43d8-afee-1871d1320656": {
+              "id": "6df824e3-c8a1-43d8-afee-1871d1320656",
+              "name": "Indisponibilite",
+              "type": "Class",
+              "owner": null,
+              "bounds": {
+                "x": 600,
+                "y": -100,
+                "width": 400,
+                "height": 160
+              },
+              "attributes": [
+                "27d9b161-f7e5-4949-8bfc-a85110a4ccc0",
+                "c5a68587-984c-4f3a-8eb9-db77a59606b2",
+                "112d6246-4f14-497a-81b4-6c8e13b869d3"
+              ],
+              "methods": [
+                "320008ca-56a1-40e1-adb1-0085df99fc6e"
+              ]
+            },
+            "27d9b161-f7e5-4949-8bfc-a85110a4ccc0": {
+              "id": "27d9b161-f7e5-4949-8bfc-a85110a4ccc0",
+              "name": "dateDebut",
+              "type": "ClassAttribute",
+              "owner": "6df824e3-c8a1-43d8-afee-1871d1320656",
+              "bounds": {
+                "x": 600.5,
+                "y": -59.5,
+                "width": 399,
+                "height": 30
+              },
+              "code": "",
+              "visibility": "private",
+              "attributeType": "date",
+              "implementationType": "none",
+              "stateMachineId": "",
+              "quantumCircuitId": "",
+              "isOptional": false
+            },
+            "c5a68587-984c-4f3a-8eb9-db77a59606b2": {
+              "id": "c5a68587-984c-4f3a-8eb9-db77a59606b2",
+              "name": "dateFin",
+              "type": "ClassAttribute",
+              "owner": "6df824e3-c8a1-43d8-afee-1871d1320656",
+              "bounds": {
+                "x": 600.5,
+                "y": -29.5,
+                "width": 399,
+                "height": 30
+              },
+              "code": "",
+              "visibility": "private",
+              "attributeType": "date",
+              "implementationType": "none",
+              "stateMachineId": "",
+              "quantumCircuitId": "",
+              "isOptional": false
+            },
+            "112d6246-4f14-497a-81b4-6c8e13b869d3": {
+              "id": "112d6246-4f14-497a-81b4-6c8e13b869d3",
+              "name": "motif",
+              "type": "ClassAttribute",
+              "owner": "6df824e3-c8a1-43d8-afee-1871d1320656",
+              "bounds": {
+                "x": 600.5,
+                "y": 0.5,
+                "width": 399,
+                "height": 30
+              },
+              "code": "",
+              "visibility": "private",
+              "attributeType": "str",
+              "implementationType": "none",
+              "stateMachineId": "",
+              "quantumCircuitId": "",
+              "isOptional": false
+            },
+            "320008ca-56a1-40e1-adb1-0085df99fc6e": {
+              "id": "320008ca-56a1-40e1-adb1-0085df99fc6e",
+              "name": "+ chevauche(dateDebut: date, dateFin: date): boolean",
+              "type": "ClassMethod",
+              "owner": "6df824e3-c8a1-43d8-afee-1871d1320656",
+              "bounds": {
+                "x": 600.5,
+                "y": 30.5,
+                "width": 399,
+                "height": 30
+              },
+              "code": "",
+              "visibility": "public",
+              "attributeType": "str",
+              "implementationType": "none",
+              "stateMachineId": "",
+              "quantumCircuitId": "",
+              "isOptional": false
+            },
+            "2fa391bc-882b-4987-9618-a04581d613eb": {
+              "id": "2fa391bc-882b-4987-9618-a04581d613eb",
+              "name": "JourSemaine",
+              "type": "Enumeration",
+              "owner": null,
+              "bounds": {
+                "x": 300,
+                "y": 140,
+                "width": 160,
+                "height": 260
+              },
+              "attributes": [
+                "69aaf0b9-9933-4670-b199-ca043fd7f9de",
+                "153d488e-6e28-4ac6-ac57-e307b9d3053c",
+                "f7d4fece-e7db-4f90-8b6e-b045334b31c7",
+                "e171a8d0-71aa-4f3a-bbf0-ba4962bac200",
+                "bc5b7334-55b1-4943-9d81-20b3ff62316c",
+                "558c26ad-e3a0-4854-a7e0-38a373d0e772",
+                "ec8993ec-7494-4d45-a104-29acd664e455"
+              ],
+              "methods": []
+            },
+            "69aaf0b9-9933-4670-b199-ca043fd7f9de": {
+              "id": "69aaf0b9-9933-4670-b199-ca043fd7f9de",
+              "name": "Lundi",
+              "type": "ClassAttribute",
+              "owner": "2fa391bc-882b-4987-9618-a04581d613eb",
+              "bounds": {
+                "x": 300.5,
+                "y": 190.5,
+                "width": 159,
+                "height": 30
+              },
+              "code": "",
+              "visibility": "public",
+              "attributeType": "str",
+              "implementationType": "none",
+              "stateMachineId": "",
+              "quantumCircuitId": "",
+              "isOptional": false
+            },
+            "153d488e-6e28-4ac6-ac57-e307b9d3053c": {
+              "id": "153d488e-6e28-4ac6-ac57-e307b9d3053c",
+              "name": "Mardi",
+              "type": "ClassAttribute",
+              "owner": "2fa391bc-882b-4987-9618-a04581d613eb",
+              "bounds": {
+                "x": 300.5,
+                "y": 220.5,
+                "width": 159,
+                "height": 30
+              },
+              "code": "",
+              "visibility": "public",
+              "attributeType": "str",
+              "implementationType": "none",
+              "stateMachineId": "",
+              "quantumCircuitId": "",
+              "isOptional": false
+            },
+            "f7d4fece-e7db-4f90-8b6e-b045334b31c7": {
+              "id": "f7d4fece-e7db-4f90-8b6e-b045334b31c7",
+              "name": "Mercredi",
+              "type": "ClassAttribute",
+              "owner": "2fa391bc-882b-4987-9618-a04581d613eb",
+              "bounds": {
+                "x": 300.5,
+                "y": 250.5,
+                "width": 159,
+                "height": 30
+              },
+              "code": "",
+              "visibility": "public",
+              "attributeType": "str",
+              "implementationType": "none",
+              "stateMachineId": "",
+              "quantumCircuitId": "",
+              "isOptional": false
+            },
+            "e171a8d0-71aa-4f3a-bbf0-ba4962bac200": {
+              "id": "e171a8d0-71aa-4f3a-bbf0-ba4962bac200",
+              "name": "Jeudi",
+              "type": "ClassAttribute",
+              "owner": "2fa391bc-882b-4987-9618-a04581d613eb",
+              "bounds": {
+                "x": 300.5,
+                "y": 280.5,
+                "width": 159,
+                "height": 30
+              },
+              "code": "",
+              "visibility": "public",
+              "attributeType": "str",
+              "implementationType": "none",
+              "stateMachineId": "",
+              "quantumCircuitId": "",
+              "isOptional": false
+            },
+            "bc5b7334-55b1-4943-9d81-20b3ff62316c": {
+              "id": "bc5b7334-55b1-4943-9d81-20b3ff62316c",
+              "name": "Vendredi",
+              "type": "ClassAttribute",
+              "owner": "2fa391bc-882b-4987-9618-a04581d613eb",
+              "bounds": {
+                "x": 300.5,
+                "y": 310.5,
+                "width": 159,
+                "height": 30
+              },
+              "code": "",
+              "visibility": "public",
+              "attributeType": "str",
+              "implementationType": "none",
+              "stateMachineId": "",
+              "quantumCircuitId": "",
+              "isOptional": false
+            },
+            "558c26ad-e3a0-4854-a7e0-38a373d0e772": {
+              "id": "558c26ad-e3a0-4854-a7e0-38a373d0e772",
+              "name": "Samedi",
+              "type": "ClassAttribute",
+              "owner": "2fa391bc-882b-4987-9618-a04581d613eb",
+              "bounds": {
+                "x": 300.5,
+                "y": 340.5,
+                "width": 159,
+                "height": 30
+              },
+              "code": "",
+              "visibility": "public",
+              "attributeType": "str",
+              "implementationType": "none",
+              "stateMachineId": "",
+              "quantumCircuitId": "",
+              "isOptional": false
+            },
+            "ec8993ec-7494-4d45-a104-29acd664e455": {
+              "id": "ec8993ec-7494-4d45-a104-29acd664e455",
+              "name": "Dimanche",
+              "type": "ClassAttribute",
+              "owner": "2fa391bc-882b-4987-9618-a04581d613eb",
+              "bounds": {
+                "x": 300.5,
+                "y": 370.5,
+                "width": 159,
+                "height": 30
+              },
+              "code": "",
+              "visibility": "public",
+              "attributeType": "str",
+              "implementationType": "none",
+              "stateMachineId": "",
+              "quantumCircuitId": "",
+              "isOptional": false
+            },
+            "1cb43623-3c9d-4459-b5c3-0baa86abcc95": {
+              "id": "1cb43623-3c9d-4459-b5c3-0baa86abcc95",
+              "name": "ReservationStatut",
+              "type": "Enumeration",
+              "owner": null,
+              "bounds": {
+                "x": 90,
+                "y": 140,
+                "width": 160,
+                "height": 140
+              },
+              "attributes": [
+                "959043be-e82e-40df-a196-12218d83f3a1",
+                "d3520e4a-3337-4b79-9c6e-7525db42b549",
+                "63819161-0a2e-48dd-9ebf-ed05ace4ac9b"
+              ],
+              "methods": []
+            },
+            "959043be-e82e-40df-a196-12218d83f3a1": {
+              "id": "959043be-e82e-40df-a196-12218d83f3a1",
+              "name": "EN_ATTENTE",
+              "type": "ClassAttribute",
+              "owner": "1cb43623-3c9d-4459-b5c3-0baa86abcc95",
+              "bounds": {
+                "x": 90.5,
+                "y": 190.5,
+                "width": 159,
+                "height": 30
+              },
+              "code": "",
+              "visibility": "public",
+              "attributeType": "str",
+              "implementationType": "none",
+              "stateMachineId": "",
+              "quantumCircuitId": "",
+              "isOptional": false
+            },
+            "d3520e4a-3337-4b79-9c6e-7525db42b549": {
+              "id": "d3520e4a-3337-4b79-9c6e-7525db42b549",
+              "name": "CONFIRME",
+              "type": "ClassAttribute",
+              "owner": "1cb43623-3c9d-4459-b5c3-0baa86abcc95",
+              "bounds": {
+                "x": 90.5,
+                "y": 220.5,
+                "width": 159,
+                "height": 30
+              },
+              "code": "",
+              "visibility": "public",
+              "attributeType": "str",
+              "implementationType": "none",
+              "stateMachineId": "",
+              "quantumCircuitId": "",
+              "isOptional": false
+            },
+            "63819161-0a2e-48dd-9ebf-ed05ace4ac9b": {
+              "id": "63819161-0a2e-48dd-9ebf-ed05ace4ac9b",
+              "name": "ANNULEE",
+              "type": "ClassAttribute",
+              "owner": "1cb43623-3c9d-4459-b5c3-0baa86abcc95",
+              "bounds": {
+                "x": 90.5,
+                "y": 250.5,
+                "width": 159,
+                "height": 30
+              },
+              "code": "",
+              "visibility": "public",
+              "attributeType": "str",
+              "implementationType": "none",
+              "stateMachineId": "",
+              "quantumCircuitId": "",
+              "isOptional": false
+            }
+          },
+          "relationships": {
+            "c3766f84-1e51-4a88-b07d-ffb2e4e3c560": {
+              "id": "c3766f84-1e51-4a88-b07d-ffb2e4e3c560",
+              "name": "gerer",
+              "type": "ClassBidirectional",
+              "owner": null,
+              "bounds": {
+                "x": -540,
+                "y": -315,
+                "width": 130,
+                "height": 48.77777862548828
+              },
+              "path": [
+                {
+                  "x": 0,
+                  "y": 10
+                },
+                {
+                  "x": 130,
+                  "y": 10
+                }
+              ],
+              "source": {
+                "direction": "Right",
+                "element": "5e74b145-0e21-464d-a2e5-89fdca9d4f39",
+                "multiplicity": "1",
+                "role": ""
+              },
+              "target": {
+                "direction": "Left",
+                "element": "83aca30b-b31a-4b50-a2d8-c1a5286efb5f",
+                "multiplicity": "*",
+                "role": ""
+              },
+              "isManuallyLayouted": false
+            },
+            "f35629af-e6ad-4d53-894d-38a07df90646": {
+              "id": "f35629af-e6ad-4d53-894d-38a07df90646",
+              "name": "être_constitue",
+              "type": "ClassBidirectional",
+              "owner": null,
+              "bounds": {
+                "x": -150,
+                "y": -300,
+                "width": 210,
+                "height": 48.77777862548828
+              },
+              "textColor": "black",
+              "path": [
+                {
+                  "x": 0,
+                  "y": 10
+                },
+                {
+                  "x": 210,
+                  "y": 10
+                }
+              ],
+              "source": {
+                "direction": "Right",
+                "element": "83aca30b-b31a-4b50-a2d8-c1a5286efb5f",
+                "multiplicity": "1",
+                "role": ""
+              },
+              "target": {
+                "direction": "Upleft",
+                "element": "91616ec5-22f7-4cf5-a68b-52d534c9c61d",
+                "multiplicity": "*",
+                "role": ""
+              },
+              "isManuallyLayouted": false
+            },
+            "a21c088a-9628-40f2-8c3e-4e5a07cb93d7": {
+              "id": "a21c088a-9628-40f2-8c3e-4e5a07cb93d7",
+              "name": "",
+              "type": "ClassInheritance",
+              "owner": null,
+              "bounds": {
+                "x": -105,
+                "y": 520,
+                "width": 10,
+                "height": 60
+              },
+              "path": [
+                {
+                  "x": 5,
+                  "y": 60
+                },
+                {
+                  "x": 5,
+                  "y": 0
+                }
+              ],
+              "source": {
+                "direction": "Topleft",
+                "element": "3bca7c9d-2b1b-49d8-b5c0-662aab4a7edc",
+                "multiplicity": "",
+                "role": ""
+              },
+              "target": {
+                "direction": "Bottomright",
+                "element": "af73d584-fac6-47a6-a544-f9593f7ab595",
+                "multiplicity": "",
+                "role": ""
+              },
+              "isManuallyLayouted": false
+            },
+            "ae758ad8-2162-4dec-a0a0-1abbafd203d7": {
+              "id": "ae758ad8-2162-4dec-a0a0-1abbafd203d7",
+              "name": "",
+              "type": "ClassInheritance",
+              "owner": null,
+              "bounds": {
+                "x": -225,
+                "y": 520,
+                "width": 10,
+                "height": 60
+              },
+              "path": [
+                {
+                  "x": 5,
+                  "y": 60
+                },
+                {
+                  "x": 5,
+                  "y": 0
+                }
+              ],
+              "source": {
+                "direction": "Topleft",
+                "element": "c72baabf-42be-4626-8a9d-f7ff0cb28544",
+                "multiplicity": "",
+                "role": ""
+              },
+              "target": {
+                "direction": "Bottomleft",
+                "element": "af73d584-fac6-47a6-a544-f9593f7ab595",
+                "multiplicity": "",
+                "role": ""
+              },
+              "isManuallyLayouted": false
+            },
+            "170f71fe-f37a-4321-9cff-494ba89fcdcb": {
+              "id": "170f71fe-f37a-4321-9cff-494ba89fcdcb",
+              "name": "creer",
+              "type": "ClassBidirectional",
+              "owner": null,
+              "bounds": {
+                "x": -480,
+                "y": 90,
+                "width": 150,
+                "height": 48.77777862548828
+              },
+              "path": [
+                {
+                  "x": 0,
+                  "y": 10
+                },
+                {
+                  "x": 150,
+                  "y": 10
+                }
+              ],
+              "source": {
+                "direction": "Right",
+                "element": "3d655b4a-a2c4-4e5c-834c-bf5e998abc9e",
+                "multiplicity": "1",
+                "role": ""
+              },
+              "target": {
+                "direction": "Upleft",
+                "element": "441dd40b-0f37-4d2f-a603-864374d71ace",
+                "multiplicity": "*",
+                "role": ""
+              },
+              "isManuallyLayouted": false
+            },
+            "5f5ea833-2683-4f6a-a529-28f0f1b73691": {
+              "id": "5f5ea833-2683-4f6a-a529-28f0f1b73691",
+              "name": "ajouter",
+              "type": "ClassBidirectional",
+              "owner": null,
+              "bounds": {
+                "x": -155,
+                "y": 280,
+                "width": 18.902777671813965,
+                "height": 79.77777862548828
+              },
+              "path": [
+                {
+                  "x": 5,
+                  "y": 0
+                },
+                {
+                  "x": 5,
+                  "y": 70
+                }
+              ],
+              "source": {
+                "direction": "Down",
+                "element": "441dd40b-0f37-4d2f-a603-864374d71ace",
+                "multiplicity": "1",
+                "role": ""
+              },
+              "target": {
+                "direction": "Up",
+                "element": "af73d584-fac6-47a6-a544-f9593f7ab595",
+                "multiplicity": "*",
+                "role": ""
+              },
+              "isManuallyLayouted": false
+            },
+            "273f4351-5463-4f23-80a8-347d289fe94a": {
+              "id": "273f4351-5463-4f23-80a8-347d289fe94a",
+              "name": "concerner",
+              "type": "ClassBidirectional",
+              "owner": null,
+              "bounds": {
+                "x": -20,
+                "y": -280,
+                "width": 80,
+                "height": 428.7777786254883
+              },
+              "path": [
+                {
+                  "x": 0,
+                  "y": 390
+                },
+                {
+                  "x": 40,
+                  "y": 390
+                },
+                {
+                  "x": 40,
+                  "y": 10
+                },
+                {
+                  "x": 80,
+                  "y": 10
+                }
+              ],
+              "source": {
+                "direction": "Right",
+                "element": "441dd40b-0f37-4d2f-a603-864374d71ace",
+                "multiplicity": "*",
+                "role": ""
+              },
+              "target": {
+                "direction": "Left",
+                "element": "91616ec5-22f7-4cf5-a68b-52d534c9c61d",
+                "multiplicity": "1",
+                "role": ""
+              },
+              "isManuallyLayouted": false
+            },
+            "1c041794-1088-40cc-b055-6b42a795e367": {
+              "id": "1c041794-1088-40cc-b055-6b42a795e367",
+              "name": "",
+              "type": "ClassBidirectional",
+              "owner": null,
+              "bounds": {
+                "x": 480,
+                "y": -230,
+                "width": 140,
+                "height": 48.77777862548828
+              },
+              "path": [
+                {
+                  "x": 0,
+                  "y": 10
+                },
+                {
+                  "x": 140,
+                  "y": 10
+                }
+              ],
+              "source": {
+                "direction": "Upright",
+                "element": "91616ec5-22f7-4cf5-a68b-52d534c9c61d",
+                "multiplicity": "*",
+                "role": ""
+              },
+              "target": {
+                "direction": "Left",
+                "element": "9f2d5a51-37b0-42a1-9b9f-0ffe4a3e78f0",
+                "multiplicity": "1",
+                "role": ""
+              },
+              "isManuallyLayouted": false
+            },
+            "b16c4930-a3d3-4452-8972-70b5b1e8c3e0": {
+              "id": "b16c4930-a3d3-4452-8972-70b5b1e8c3e0",
+              "name": "",
+              "type": "ClassBidirectional",
+              "owner": null,
+              "bounds": {
+                "x": 480,
+                "y": -210,
+                "width": 120,
+                "height": 228.77777862548828
+              },
+              "path": [
+                {
+                  "x": 0,
+                  "y": 10
+                },
+                {
+                  "x": 60,
+                  "y": 10
+                },
+                {
+                  "x": 60,
+                  "y": 190
+                },
+                {
+                  "x": 120,
+                  "y": 190
+                }
+              ],
+              "source": {
+                "direction": "Downright",
+                "element": "91616ec5-22f7-4cf5-a68b-52d534c9c61d",
+                "multiplicity": "1",
+                "role": ""
+              },
+              "target": {
+                "direction": "Left",
+                "element": "6df824e3-c8a1-43d8-afee-1871d1320656",
+                "multiplicity": "*",
+                "role": ""
+              },
+              "isManuallyLayouted": false
+            },
+            "30def474-d135-4d60-9481-24e32f7fd8cf": {
+              "id": "30def474-d135-4d60-9481-24e32f7fd8cf",
+              "name": "",
+              "type": "Link",
+              "owner": null,
+              "bounds": {
+                "x": 370,
+                "y": -485,
+                "width": 210,
+                "height": 91
+              },
+              "path": [
+                {
+                  "x": 210,
+                  "y": 70
+                },
+                {
+                  "x": 170,
+                  "y": 70
+                },
+                {
+                  "x": 170,
+                  "y": 0
+                },
+                {
+                  "x": 5,
+                  "y": 0
+                },
+                {
+                  "x": 5,
+                  "y": 75
+                }
+              ],
+              "source": {
+                "direction": "Left",
+                "element": "12c88b42-623c-47a3-8f91-6dad05d2575a",
+                "multiplicity": "",
+                "role": ""
+              },
+              "target": {
+                "direction": "Topright",
+                "element": "91616ec5-22f7-4cf5-a68b-52d534c9c61d",
+                "multiplicity": "",
+                "role": ""
+              },
+              "isManuallyLayouted": false
+            }
+          },
+          "assessments": {}
+        },
+        "lastUpdate": "2026-03-12T21:15:42.314Z"
+      },
+      "ObjectDiagram": {
+        "id": "b4046e91-8766-41f8-9b97-d72ce237f108",
+        "title": "Object Diagram",
+        "model": {
+          "version": "3.0.0",
+          "type": "ObjectDiagram",
+          "size": {
+            "width": 1400,
+            "height": 740
+          },
+          "elements": {},
+          "relationships": {},
+          "interactive": {
+            "elements": {},
+            "relationships": {}
+          },
+          "assessments": {}
+        },
+        "lastUpdate": "2026-03-02T08:31:03.445Z"
+      },
+      "StateMachineDiagram": {
+        "id": "d89bbb60-9d26-4411-ad0f-0ffa618d3a9c",
+        "title": "State Machine Diagram",
+        "model": {
+          "version": "3.0.0",
+          "type": "StateMachineDiagram",
+          "size": {
+            "width": 1400,
+            "height": 740
+          },
+          "elements": {},
+          "relationships": {},
+          "interactive": {
+            "elements": {},
+            "relationships": {}
+          },
+          "assessments": {}
+        },
+        "lastUpdate": "2026-03-02T08:31:03.445Z"
+      },
+      "AgentDiagram": {
+        "id": "00881bec-499e-4b1f-9ac8-684de91b7ba4",
+        "title": "Agent Diagram",
+        "model": {
+          "version": "3.0.0",
+          "type": "AgentDiagram",
+          "size": {
+            "width": 1400,
+            "height": 740
+          },
+          "elements": {},
+          "relationships": {},
+          "interactive": {
+            "elements": {},
+            "relationships": {}
+          },
+          "assessments": {}
+        },
+        "lastUpdate": "2026-03-02T08:31:03.445Z"
+      },
+      "UserDiagram": {
+        "id": "64a2c657-6b1a-4d42-9f7c-cb5f513f144f",
+        "title": "User Diagram",
+        "model": {
+          "version": "3.0.0",
+          "type": "UserDiagram",
+          "size": {
+            "width": 1400,
+            "height": 740
+          },
+          "elements": {},
+          "relationships": {},
+          "interactive": {
+            "elements": {},
+            "relationships": {}
+          },
+          "assessments": {}
+        },
+        "lastUpdate": "2026-03-02T08:31:03.445Z"
+      },
+      "QuantumCircuitDiagram": {
+        "id": "328a0e43-7a10-447d-acb3-e84ff916c20c",
+        "title": "Quantum Circuit",
+        "model": {
+          "cols": [],
+          "gates": [],
+          "gateMetadata": {},
+          "classicalBitCount": 0,
+          "version": "1.0.0"
+        },
+        "lastUpdate": "2026-03-02T08:50:32.308Z"
+      }
+    },
+    "settings": {
+      "defaultDiagramType": "ClassDiagram",
+      "autoSave": true,
+      "collaborationEnabled": false
+    }
+  },
+  "exportedAt": "2026-03-12T21:22:02.170Z",
+  "version": "2.0.0"
+}
