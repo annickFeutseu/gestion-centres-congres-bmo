@@ -288,7 +288,7 @@
                 "x": -490,
                 "y": -400,
                 "width": 420,
-                "height": 220
+                "height": 250
               },
               "attributes": [
                 "b739fab6-04a7-4d09-a5b4-36a5699231f4",
@@ -298,7 +298,8 @@
               "methods": [
                 "78b7f821-c0d7-4dec-b3ba-a2df94caed5d",
                 "74957441-22f1-45de-b109-814bcaaa3dc9",
-                "126d01fc-02dc-4f3d-a56b-53bba611d935"
+                "126d01fc-02dc-4f3d-a56b-53bba611d935",
+                "96735bf9-9b5a-4628-856e-906e81133431"
               ]
             },
             "b739fab6-04a7-4d09-a5b4-36a5699231f4": {
@@ -356,7 +357,7 @@
               "implementationType": "none",
               "stateMachineId": "",
               "quantumCircuitId": "",
-              "isOptional": false
+              "isOptional": true
             },
             "78b7f821-c0d7-4dec-b3ba-a2df94caed5d": {
               "id": "78b7f821-c0d7-4dec-b3ba-a2df94caed5d",
@@ -404,6 +405,25 @@
               "bounds": {
                 "x": -489.5,
                 "y": -209.5,
+                "width": 419,
+                "height": 30
+              },
+              "code": "",
+              "visibility": "public",
+              "attributeType": "str",
+              "implementationType": "none",
+              "stateMachineId": "",
+              "quantumCircuitId": "",
+              "isOptional": false
+            },
+            "96735bf9-9b5a-4628-856e-906e81133431": {
+              "id": "96735bf9-9b5a-4628-856e-906e81133431",
+              "name": "+ getElements(): Element",
+              "type": "ClassMethod",
+              "owner": "83aca30b-b31a-4b50-a2d8-c1a5286efb5f",
+              "bounds": {
+                "x": -489.5,
+                "y": -179.5,
                 "width": 419,
                 "height": 30
               },
@@ -498,7 +518,7 @@
             },
             "55df41ce-6389-4f0f-9c37-e8020c0c64ab": {
               "id": "55df41ce-6389-4f0f-9c37-e8020c0c64ab",
-              "name": "statut",
+              "name": "actif",
               "type": "ClassAttribute",
               "owner": "91616ec5-22f7-4cf5-a68b-52d534c9c61d",
               "bounds": {
@@ -513,7 +533,7 @@
               "implementationType": "none",
               "stateMachineId": "",
               "quantumCircuitId": "",
-              "isOptional": false
+              "isOptional": true
             },
             "54e8d7f1-dcc9-42c1-b780-d0fe62b7fe4b": {
               "id": "54e8d7f1-dcc9-42c1-b780-d0fe62b7fe4b",
@@ -532,7 +552,7 @@
               "implementationType": "none",
               "stateMachineId": "",
               "quantumCircuitId": "",
-              "isOptional": false
+              "isOptional": true
             },
             "b03a0562-9f88-468b-9635-88adaa231acb": {
               "id": "b03a0562-9f88-468b-9635-88adaa231acb",
@@ -648,7 +668,7 @@
               "implementationType": "none",
               "stateMachineId": "",
               "quantumCircuitId": "",
-              "isOptional": false
+              "isOptional": true
             },
             "9fc41fc4-376f-45fc-b87e-7084759ad218": {
               "id": "9fc41fc4-376f-45fc-b87e-7084759ad218",
@@ -1327,8 +1347,8 @@
               "type": "Comments",
               "owner": null,
               "bounds": {
-                "x": 580,
-                "y": -480,
+                "x": 440,
+                "y": -550,
                 "width": 230,
                 "height": 130
               }
@@ -1668,7 +1688,7 @@
               "owner": null,
               "bounds": {
                 "x": -740,
-                "y": -300,
+                "y": -285,
                 "width": 250,
                 "height": 48
               },
@@ -1685,7 +1705,7 @@
               "source": {
                 "direction": "Right",
                 "element": "5e74b145-0e21-464d-a2e5-89fdca9d4f39",
-                "multiplicity": "1",
+                "multiplicity": "0..1",
                 "role": ""
               },
               "target": {
@@ -1703,7 +1723,7 @@
               "owner": null,
               "bounds": {
                 "x": -70,
-                "y": -300,
+                "y": -285,
                 "width": 150,
                 "height": 48
               },
@@ -1826,7 +1846,7 @@
               "source": {
                 "direction": "Right",
                 "element": "3d655b4a-a2c4-4e5c-834c-bf5e998abc9e",
-                "multiplicity": "1",
+                "multiplicity": "0..1",
                 "role": ""
               },
               "target": {
@@ -1845,7 +1865,7 @@
               "bounds": {
                 "x": -155,
                 "y": 280,
-                "width": 18.899999618530273,
+                "width": 36.70000076293945,
                 "height": 79
               },
               "path": [
@@ -1861,7 +1881,7 @@
               "source": {
                 "direction": "Down",
                 "element": "441dd40b-0f37-4d2f-a603-864374d71ace",
-                "multiplicity": "1",
+                "multiplicity": "0..1",
                 "role": ""
               },
               "target": {
@@ -1879,18 +1899,18 @@
               "owner": null,
               "bounds": {
                 "x": -10,
-                "y": -280,
+                "y": -210,
                 "width": 90,
-                "height": 428
+                "height": 358
               },
               "path": [
                 {
                   "x": 0,
-                  "y": 390
+                  "y": 320
                 },
                 {
                   "x": 40,
-                  "y": 390
+                  "y": 320
                 },
                 {
                   "x": 40,
@@ -1908,9 +1928,9 @@
                 "role": ""
               },
               "target": {
-                "direction": "Left",
+                "direction": "Downleft",
                 "element": "91616ec5-22f7-4cf5-a68b-52d534c9c61d",
-                "multiplicity": "1",
+                "multiplicity": "0..1",
                 "role": ""
               },
               "isManuallyLayouted": false
@@ -1945,7 +1965,7 @@
               "target": {
                 "direction": "Left",
                 "element": "9f2d5a51-37b0-42a1-9b9f-0ffe4a3e78f0",
-                "multiplicity": "1",
+                "multiplicity": "0..1",
                 "role": ""
               },
               "isManuallyLayouted": false
@@ -1982,7 +2002,7 @@
               "source": {
                 "direction": "Downright",
                 "element": "91616ec5-22f7-4cf5-a68b-52d534c9c61d",
-                "multiplicity": "1",
+                "multiplicity": "0..1",
                 "role": ""
               },
               "target": {
@@ -1996,7 +2016,7 @@
           },
           "assessments": {}
         },
-        "lastUpdate": "2026-03-13T08:53:18.386Z"
+        "lastUpdate": "2026-03-13T09:53:24.260Z"
       },
       "ObjectDiagram": {
         "id": "b4046e91-8766-41f8-9b97-d72ce237f108",
@@ -2097,6 +2117,6 @@
       "collaborationEnabled": false
     }
   },
-  "exportedAt": "2026-03-13T08:53:44.984Z",
+  "exportedAt": "2026-03-13T10:06:10.148Z",
   "version": "2.0.0"
 }
