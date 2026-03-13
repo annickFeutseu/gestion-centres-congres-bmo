@@ -1,11 +1,11 @@
 {
   "project": {
-    "id": "project_1773342169311_cjm09np81",
+    "id": "project_1773386522608_bavc14xze",
     "type": "Project",
     "name": "gestion-centre-congres",
     "description": "New project",
     "owner": "User",
-    "createdAt": "2026-03-12T19:02:49.312Z",
+    "createdAt": "2026-03-13T07:22:02.608Z",
     "currentDiagramType": "ClassDiagram",
     "diagrams": {
       "ClassDiagram": {
@@ -15,7 +15,7 @@
           "version": "3.0.0",
           "type": "ClassDiagram",
           "size": {
-            "width": 2040,
+            "width": 2360,
             "height": 1400
           },
           "interactive": {
@@ -29,17 +29,27 @@
               "type": "Class",
               "owner": null,
               "bounds": {
-                "x": -700,
-                "y": -370,
-                "width": 160,
-                "height": 130
+                "x": -1160,
+                "y": -430,
+                "width": 420,
+                "height": 400
               },
               "attributes": [
                 "7c86d3bb-3835-48f1-b7c7-300896055cb4",
                 "b525cb79-1020-49f7-a6c6-fd94df76cb3c",
                 "66276902-88ee-4b3c-b44e-93bb2097fd35"
               ],
-              "methods": []
+              "methods": [
+                "cb1c4ca4-5f10-4347-90c8-c577bb8d4b1f",
+                "93cd9425-bef4-42a1-9e6b-fbcf4a64956c",
+                "f3bcb1df-effe-4ee9-945c-6cb6b32e1f77",
+                "520dce76-261f-478b-9631-8257a9084ac2",
+                "baccfd73-77f6-49fb-a2c3-15d73bf77fb3",
+                "63e5c3a0-4d99-4d0c-ad36-dc1a5af1a543",
+                "ff2305c1-85a2-49f4-a6a1-748660310387",
+                "362d7fd1-db90-4838-84bf-452f3e9f6610",
+                "12ded6dd-c8c2-4a21-a5ae-e7dfe7372b8a"
+              ]
             },
             "7c86d3bb-3835-48f1-b7c7-300896055cb4": {
               "id": "7c86d3bb-3835-48f1-b7c7-300896055cb4",
@@ -47,9 +57,9 @@
               "type": "ClassAttribute",
               "owner": "5e74b145-0e21-464d-a2e5-89fdca9d4f39",
               "bounds": {
-                "x": -699.5,
-                "y": -329.5,
-                "width": 159,
+                "x": -1159.5,
+                "y": -389.5,
+                "width": 419,
                 "height": 30
               },
               "code": "",
@@ -66,9 +76,9 @@
               "type": "ClassAttribute",
               "owner": "5e74b145-0e21-464d-a2e5-89fdca9d4f39",
               "bounds": {
-                "x": -699.5,
-                "y": -299.5,
-                "width": 159,
+                "x": -1159.5,
+                "y": -359.5,
+                "width": 419,
                 "height": 30
               },
               "code": "",
@@ -85,13 +95,184 @@
               "type": "ClassAttribute",
               "owner": "5e74b145-0e21-464d-a2e5-89fdca9d4f39",
               "bounds": {
-                "x": -699.5,
-                "y": -269.5,
-                "width": 159,
+                "x": -1159.5,
+                "y": -329.5,
+                "width": 419,
                 "height": 30
               },
               "code": "",
               "visibility": "private",
+              "attributeType": "str",
+              "implementationType": "none",
+              "stateMachineId": "",
+              "quantumCircuitId": "",
+              "isOptional": false
+            },
+            "cb1c4ca4-5f10-4347-90c8-c577bb8d4b1f": {
+              "id": "cb1c4ca4-5f10-4347-90c8-c577bb8d4b1f",
+              "name": "+ ajouterElement(centre: CentreCongres, elmt: Element)",
+              "type": "ClassMethod",
+              "owner": "5e74b145-0e21-464d-a2e5-89fdca9d4f39",
+              "bounds": {
+                "x": -1159.5,
+                "y": -299.5,
+                "width": 419,
+                "height": 30
+              },
+              "code": "",
+              "visibility": "public",
+              "attributeType": "str",
+              "implementationType": "none",
+              "stateMachineId": "",
+              "quantumCircuitId": "",
+              "isOptional": false
+            },
+            "93cd9425-bef4-42a1-9e6b-fbcf4a64956c": {
+              "id": "93cd9425-bef4-42a1-9e6b-fbcf4a64956c",
+              "name": "+ supprimerElement(centre: CentreCongres, elmt: Element)",
+              "type": "ClassMethod",
+              "owner": "5e74b145-0e21-464d-a2e5-89fdca9d4f39",
+              "bounds": {
+                "x": -1159.5,
+                "y": -269.5,
+                "width": 419,
+                "height": 30
+              },
+              "code": "",
+              "visibility": "public",
+              "attributeType": "str",
+              "implementationType": "none",
+              "stateMachineId": "",
+              "quantumCircuitId": "",
+              "isOptional": false
+            },
+            "f3bcb1df-effe-4ee9-945c-6cb6b32e1f77": {
+              "id": "f3bcb1df-effe-4ee9-945c-6cb6b32e1f77",
+              "name": "+ getElements(centre: CentreCongres): Element",
+              "type": "ClassMethod",
+              "owner": "5e74b145-0e21-464d-a2e5-89fdca9d4f39",
+              "bounds": {
+                "x": -1159.5,
+                "y": -239.5,
+                "width": 419,
+                "height": 30
+              },
+              "code": "",
+              "visibility": "public",
+              "attributeType": "str",
+              "implementationType": "none",
+              "stateMachineId": "",
+              "quantumCircuitId": "",
+              "isOptional": false
+            },
+            "520dce76-261f-478b-9631-8257a9084ac2": {
+              "id": "520dce76-261f-478b-9631-8257a9084ac2",
+              "name": "+ ajouterReservation(centre: CentreCongres, evenement: Evenement, r: Reservation)",
+              "type": "ClassMethod",
+              "owner": "5e74b145-0e21-464d-a2e5-89fdca9d4f39",
+              "bounds": {
+                "x": -1159.5,
+                "y": -209.5,
+                "width": 419,
+                "height": 30
+              },
+              "code": "",
+              "visibility": "public",
+              "attributeType": "str",
+              "implementationType": "none",
+              "stateMachineId": "",
+              "quantumCircuitId": "",
+              "isOptional": false
+            },
+            "baccfd73-77f6-49fb-a2c3-15d73bf77fb3": {
+              "id": "baccfd73-77f6-49fb-a2c3-15d73bf77fb3",
+              "name": "+ getReservations(centre: CentreCongres): Reservation",
+              "type": "ClassMethod",
+              "owner": "5e74b145-0e21-464d-a2e5-89fdca9d4f39",
+              "bounds": {
+                "x": -1159.5,
+                "y": -179.5,
+                "width": 419,
+                "height": 30
+              },
+              "code": "",
+              "visibility": "public",
+              "attributeType": "str",
+              "implementationType": "none",
+              "stateMachineId": "",
+              "quantumCircuitId": "",
+              "isOptional": false
+            },
+            "63e5c3a0-4d99-4d0c-ad36-dc1a5af1a543": {
+              "id": "63e5c3a0-4d99-4d0c-ad36-dc1a5af1a543",
+              "name": "+ modifierReservation(centre: CentreCongres, evenement: Evenement, r: Reservation)",
+              "type": "ClassMethod",
+              "owner": "5e74b145-0e21-464d-a2e5-89fdca9d4f39",
+              "bounds": {
+                "x": -1159.5,
+                "y": -149.5,
+                "width": 419,
+                "height": 30
+              },
+              "code": "",
+              "visibility": "public",
+              "attributeType": "str",
+              "implementationType": "none",
+              "stateMachineId": "",
+              "quantumCircuitId": "",
+              "isOptional": false
+            },
+            "ff2305c1-85a2-49f4-a6a1-748660310387": {
+              "id": "ff2305c1-85a2-49f4-a6a1-748660310387",
+              "name": "+ modifierTarif(elmnt: Element, tarif: Tarif)",
+              "type": "ClassMethod",
+              "owner": "5e74b145-0e21-464d-a2e5-89fdca9d4f39",
+              "bounds": {
+                "x": -1159.5,
+                "y": -119.5,
+                "width": 419,
+                "height": 30
+              },
+              "code": "",
+              "visibility": "public",
+              "attributeType": "str",
+              "implementationType": "none",
+              "stateMachineId": "",
+              "quantumCircuitId": "",
+              "isOptional": false
+            },
+            "362d7fd1-db90-4838-84bf-452f3e9f6610": {
+              "id": "362d7fd1-db90-4838-84bf-452f3e9f6610",
+              "name": "+ getDisponibiliteElement(elmt: Element)",
+              "type": "ClassMethod",
+              "owner": "5e74b145-0e21-464d-a2e5-89fdca9d4f39",
+              "bounds": {
+                "x": -1159.5,
+                "y": -89.5,
+                "width": 419,
+                "height": 30
+              },
+              "code": "",
+              "visibility": "public",
+              "attributeType": "str",
+              "implementationType": "none",
+              "stateMachineId": "",
+              "quantumCircuitId": "",
+              "isOptional": false
+            },
+            "12ded6dd-c8c2-4a21-a5ae-e7dfe7372b8a": {
+              "id": "12ded6dd-c8c2-4a21-a5ae-e7dfe7372b8a",
+              "name": "+ getStats(centre: CentreCongres)",
+              "type": "ClassMethod",
+              "owner": "5e74b145-0e21-464d-a2e5-89fdca9d4f39",
+              "bounds": {
+                "x": -1159.5,
+                "y": -59.5,
+                "width": 419,
+                "height": 30
+              },
+              "code": "",
+              "visibility": "public",
               "attributeType": "str",
               "implementationType": "none",
               "stateMachineId": "",
@@ -104,9 +285,9 @@
               "type": "Class",
               "owner": null,
               "bounds": {
-                "x": -410,
+                "x": -490,
                 "y": -400,
-                "width": 260,
+                "width": 420,
                 "height": 220
               },
               "attributes": [
@@ -115,9 +296,9 @@
                 "01c8c429-a895-40ef-acad-a218a26333da"
               ],
               "methods": [
-                "1911d856-91f6-40e0-b00e-3945cd48ca48",
-                "781dc47d-b0de-4452-9dc4-5e5f38383152",
-                "2d93edfc-6654-4f36-9aa3-51aa297e9986"
+                "78b7f821-c0d7-4dec-b3ba-a2df94caed5d",
+                "74957441-22f1-45de-b109-814bcaaa3dc9",
+                "126d01fc-02dc-4f3d-a56b-53bba611d935"
               ]
             },
             "b739fab6-04a7-4d09-a5b4-36a5699231f4": {
@@ -126,9 +307,9 @@
               "type": "ClassAttribute",
               "owner": "83aca30b-b31a-4b50-a2d8-c1a5286efb5f",
               "bounds": {
-                "x": -409.5,
+                "x": -489.5,
                 "y": -359.5,
-                "width": 259,
+                "width": 419,
                 "height": 30
               },
               "code": "",
@@ -145,9 +326,9 @@
               "type": "ClassAttribute",
               "owner": "83aca30b-b31a-4b50-a2d8-c1a5286efb5f",
               "bounds": {
-                "x": -409.5,
+                "x": -489.5,
                 "y": -329.5,
-                "width": 259,
+                "width": 419,
                 "height": 30
               },
               "code": "",
@@ -164,9 +345,9 @@
               "type": "ClassAttribute",
               "owner": "83aca30b-b31a-4b50-a2d8-c1a5286efb5f",
               "bounds": {
-                "x": -409.5,
+                "x": -489.5,
                 "y": -299.5,
-                "width": 259,
+                "width": 419,
                 "height": 30
               },
               "code": "",
@@ -177,15 +358,15 @@
               "quantumCircuitId": "",
               "isOptional": false
             },
-            "1911d856-91f6-40e0-b00e-3945cd48ca48": {
-              "id": "1911d856-91f6-40e0-b00e-3945cd48ca48",
-              "name": "+ ajouterElement(e: Element)",
+            "78b7f821-c0d7-4dec-b3ba-a2df94caed5d": {
+              "id": "78b7f821-c0d7-4dec-b3ba-a2df94caed5d",
+              "name": "+ getEvenementsPrevus(elmt: Element): Evenement",
               "type": "ClassMethod",
               "owner": "83aca30b-b31a-4b50-a2d8-c1a5286efb5f",
               "bounds": {
-                "x": -409.5,
+                "x": -489.5,
                 "y": -269.5,
-                "width": 259,
+                "width": 419,
                 "height": 30
               },
               "code": "",
@@ -196,15 +377,15 @@
               "quantumCircuitId": "",
               "isOptional": false
             },
-            "781dc47d-b0de-4452-9dc4-5e5f38383152": {
-              "id": "781dc47d-b0de-4452-9dc4-5e5f38383152",
-              "name": "+ supprimerElement(e: Element)",
+            "74957441-22f1-45de-b109-814bcaaa3dc9": {
+              "id": "74957441-22f1-45de-b109-814bcaaa3dc9",
+              "name": "+ getEvenementsPasses(elmt: Element): Evenement",
               "type": "ClassMethod",
               "owner": "83aca30b-b31a-4b50-a2d8-c1a5286efb5f",
               "bounds": {
-                "x": -409.5,
+                "x": -489.5,
                 "y": -239.5,
-                "width": 259,
+                "width": 419,
                 "height": 30
               },
               "code": "",
@@ -215,15 +396,15 @@
               "quantumCircuitId": "",
               "isOptional": false
             },
-            "2d93edfc-6654-4f36-9aa3-51aa297e9986": {
-              "id": "2d93edfc-6654-4f36-9aa3-51aa297e9986",
-              "name": "+ getElements(): Element",
+            "126d01fc-02dc-4f3d-a56b-53bba611d935": {
+              "id": "126d01fc-02dc-4f3d-a56b-53bba611d935",
+              "name": "+ getGains(elmt: Element): float",
               "type": "ClassMethod",
               "owner": "83aca30b-b31a-4b50-a2d8-c1a5286efb5f",
               "bounds": {
-                "x": -409.5,
+                "x": -489.5,
                 "y": -209.5,
-                "width": 259,
+                "width": 419,
                 "height": 30
               },
               "code": "",
@@ -240,7 +421,7 @@
               "type": "Class",
               "owner": null,
               "bounds": {
-                "x": 60,
+                "x": 80,
                 "y": -410,
                 "width": 420,
                 "height": 280
@@ -264,7 +445,7 @@
               "type": "ClassAttribute",
               "owner": "91616ec5-22f7-4cf5-a68b-52d534c9c61d",
               "bounds": {
-                "x": 60.5,
+                "x": 80.5,
                 "y": -369.5,
                 "width": 419,
                 "height": 30
@@ -283,7 +464,7 @@
               "type": "ClassAttribute",
               "owner": "91616ec5-22f7-4cf5-a68b-52d534c9c61d",
               "bounds": {
-                "x": 60.5,
+                "x": 80.5,
                 "y": -339.5,
                 "width": 419,
                 "height": 30
@@ -302,7 +483,7 @@
               "type": "ClassAttribute",
               "owner": "91616ec5-22f7-4cf5-a68b-52d534c9c61d",
               "bounds": {
-                "x": 60.5,
+                "x": 80.5,
                 "y": -309.5,
                 "width": 419,
                 "height": 30
@@ -321,7 +502,7 @@
               "type": "ClassAttribute",
               "owner": "91616ec5-22f7-4cf5-a68b-52d534c9c61d",
               "bounds": {
-                "x": 60.5,
+                "x": 80.5,
                 "y": -279.5,
                 "width": 419,
                 "height": 30
@@ -340,7 +521,7 @@
               "type": "ClassAttribute",
               "owner": "91616ec5-22f7-4cf5-a68b-52d534c9c61d",
               "bounds": {
-                "x": 60.5,
+                "x": 80.5,
                 "y": -249.5,
                 "width": 419,
                 "height": 30
@@ -355,11 +536,11 @@
             },
             "b03a0562-9f88-468b-9635-88adaa231acb": {
               "id": "b03a0562-9f88-468b-9635-88adaa231acb",
-              "name": "+ estDisponible(dateDebut: date, dateFin: date): boolean",
+              "name": "+ estDisponible(dateDebut: date, dateFin: date): bool",
               "type": "ClassMethod",
               "owner": "91616ec5-22f7-4cf5-a68b-52d534c9c61d",
               "bounds": {
-                "x": 60.5,
+                "x": 80.5,
                 "y": -219.5,
                 "width": 419,
                 "height": 30
@@ -378,7 +559,7 @@
               "type": "ClassMethod",
               "owner": "91616ec5-22f7-4cf5-a68b-52d534c9c61d",
               "bounds": {
-                "x": 60.5,
+                "x": 80.5,
                 "y": -189.5,
                 "width": 419,
                 "height": 30
@@ -393,11 +574,11 @@
             },
             "4ecdd6e2-4d5e-4967-9dff-98f3b2412607": {
               "id": "4ecdd6e2-4d5e-4967-9dff-98f3b2412607",
-              "name": "+ calculerTarif(dateDebut: date, dateFin: date): double",
+              "name": "+ calculerTarif(dateDebut: date, dateFin: date): float",
               "type": "ClassMethod",
               "owner": "91616ec5-22f7-4cf5-a68b-52d534c9c61d",
               "bounds": {
-                "x": 60.5,
+                "x": 80.5,
                 "y": -159.5,
                 "width": 419,
                 "height": 30
@@ -417,9 +598,9 @@
               "owner": null,
               "bounds": {
                 "x": -810,
-                "y": -80,
+                "y": 30,
                 "width": 330,
-                "height": 340
+                "height": 220
               },
               "attributes": [
                 "f57ffda0-cb0d-44b5-9655-b19b7c26a458",
@@ -429,12 +610,7 @@
                 "1f72159b-2032-401b-98da-cd7baf2b3ae6",
                 "e3d624cb-54bc-4669-b517-1384258feee6"
               ],
-              "methods": [
-                "35a60619-4c64-49f0-9cfe-b7689e6b5dee",
-                "8ad99dd7-afca-4d5c-8b68-97f5b4daa929",
-                "e5ed2359-abb3-48cd-89c4-863be6a7b650",
-                "8a82937f-c50b-48b5-ae46-a3b31ee45cfc"
-              ]
+              "methods": []
             },
             "f57ffda0-cb0d-44b5-9655-b19b7c26a458": {
               "id": "f57ffda0-cb0d-44b5-9655-b19b7c26a458",
@@ -443,7 +619,7 @@
               "owner": "3d655b4a-a2c4-4e5c-834c-bf5e998abc9e",
               "bounds": {
                 "x": -809.5,
-                "y": -39.5,
+                "y": 70.5,
                 "width": 329,
                 "height": 30
               },
@@ -462,7 +638,7 @@
               "owner": "3d655b4a-a2c4-4e5c-834c-bf5e998abc9e",
               "bounds": {
                 "x": -809.5,
-                "y": -9.5,
+                "y": 100.5,
                 "width": 329,
                 "height": 30
               },
@@ -481,7 +657,7 @@
               "owner": "3d655b4a-a2c4-4e5c-834c-bf5e998abc9e",
               "bounds": {
                 "x": -809.5,
-                "y": 20.5,
+                "y": 130.5,
                 "width": 329,
                 "height": 30
               },
@@ -500,7 +676,7 @@
               "owner": "3d655b4a-a2c4-4e5c-834c-bf5e998abc9e",
               "bounds": {
                 "x": -809.5,
-                "y": 50.5,
+                "y": 160.5,
                 "width": 329,
                 "height": 30
               },
@@ -519,7 +695,7 @@
               "owner": "3d655b4a-a2c4-4e5c-834c-bf5e998abc9e",
               "bounds": {
                 "x": -809.5,
-                "y": 80.5,
+                "y": 190.5,
                 "width": 329,
                 "height": 30
               },
@@ -538,89 +714,13 @@
               "owner": "3d655b4a-a2c4-4e5c-834c-bf5e998abc9e",
               "bounds": {
                 "x": -809.5,
-                "y": 110.5,
+                "y": 220.5,
                 "width": 329,
                 "height": 30
               },
               "code": "",
               "visibility": "private",
               "attributeType": "date",
-              "implementationType": "none",
-              "stateMachineId": "",
-              "quantumCircuitId": "",
-              "isOptional": false
-            },
-            "35a60619-4c64-49f0-9cfe-b7689e6b5dee": {
-              "id": "35a60619-4c64-49f0-9cfe-b7689e6b5dee",
-              "name": "+ eventPrevus(): Evenement",
-              "type": "ClassMethod",
-              "owner": "3d655b4a-a2c4-4e5c-834c-bf5e998abc9e",
-              "bounds": {
-                "x": -809.5,
-                "y": 140.5,
-                "width": 329,
-                "height": 30
-              },
-              "code": "",
-              "visibility": "public",
-              "attributeType": "str",
-              "implementationType": "none",
-              "stateMachineId": "",
-              "quantumCircuitId": "",
-              "isOptional": false
-            },
-            "8ad99dd7-afca-4d5c-8b68-97f5b4daa929": {
-              "id": "8ad99dd7-afca-4d5c-8b68-97f5b4daa929",
-              "name": "+ eventPasses():Evenement",
-              "type": "ClassMethod",
-              "owner": "3d655b4a-a2c4-4e5c-834c-bf5e998abc9e",
-              "bounds": {
-                "x": -809.5,
-                "y": 170.5,
-                "width": 329,
-                "height": 30
-              },
-              "code": "",
-              "visibility": "public",
-              "attributeType": "str",
-              "implementationType": "none",
-              "stateMachineId": "",
-              "quantumCircuitId": "",
-              "isOptional": false
-            },
-            "e5ed2359-abb3-48cd-89c4-863be6a7b650": {
-              "id": "e5ed2359-abb3-48cd-89c4-863be6a7b650",
-              "name": "+ ajouterReservation(r: Reservation)",
-              "type": "ClassMethod",
-              "owner": "3d655b4a-a2c4-4e5c-834c-bf5e998abc9e",
-              "bounds": {
-                "x": -809.5,
-                "y": 200.5,
-                "width": 329,
-                "height": 30
-              },
-              "code": "",
-              "visibility": "public",
-              "attributeType": "str",
-              "implementationType": "none",
-              "stateMachineId": "",
-              "quantumCircuitId": "",
-              "isOptional": false
-            },
-            "8a82937f-c50b-48b5-ae46-a3b31ee45cfc": {
-              "id": "8a82937f-c50b-48b5-ae46-a3b31ee45cfc",
-              "name": "+ getReservations(): Reservation",
-              "type": "ClassMethod",
-              "owner": "3d655b4a-a2c4-4e5c-834c-bf5e998abc9e",
-              "bounds": {
-                "x": -809.5,
-                "y": 230.5,
-                "width": 329,
-                "height": 30
-              },
-              "code": "",
-              "visibility": "public",
-              "attributeType": "str",
               "implementationType": "none",
               "stateMachineId": "",
               "quantumCircuitId": "",
@@ -634,7 +734,7 @@
               "bounds": {
                 "x": -330,
                 "y": -60,
-                "width": 310,
+                "width": 320,
                 "height": 340
               },
               "attributes": [
@@ -660,7 +760,7 @@
               "bounds": {
                 "x": -329.5,
                 "y": -19.5,
-                "width": 309,
+                "width": 319,
                 "height": 30
               },
               "code": "",
@@ -679,7 +779,7 @@
               "bounds": {
                 "x": -329.5,
                 "y": 10.5,
-                "width": 309,
+                "width": 319,
                 "height": 30
               },
               "code": "",
@@ -698,7 +798,7 @@
               "bounds": {
                 "x": -329.5,
                 "y": 40.5,
-                "width": 309,
+                "width": 319,
                 "height": 30
               },
               "code": "",
@@ -717,7 +817,7 @@
               "bounds": {
                 "x": -329.5,
                 "y": 70.5,
-                "width": 309,
+                "width": 319,
                 "height": 30
               },
               "code": "",
@@ -736,7 +836,7 @@
               "bounds": {
                 "x": -329.5,
                 "y": 100.5,
-                "width": 309,
+                "width": 319,
                 "height": 30
               },
               "code": "",
@@ -755,7 +855,7 @@
               "bounds": {
                 "x": -329.5,
                 "y": 130.5,
-                "width": 309,
+                "width": 319,
                 "height": 30
               },
               "code": "",
@@ -768,13 +868,13 @@
             },
             "a3c02dac-27b5-490d-988d-02495abd3582": {
               "id": "a3c02dac-27b5-490d-988d-02495abd3582",
-              "name": "+ modifier(dateDebut, dateFin)",
+              "name": "+ modifier(dateDebut: date, dateFin: date)",
               "type": "ClassMethod",
               "owner": "441dd40b-0f37-4d2f-a603-864374d71ace",
               "bounds": {
                 "x": -329.5,
                 "y": 160.5,
-                "width": 309,
+                "width": 319,
                 "height": 30
               },
               "code": "",
@@ -787,13 +887,13 @@
             },
             "fdf4f089-ea0f-4fd6-9445-cbc4828546c4": {
               "id": "fdf4f089-ea0f-4fd6-9445-cbc4828546c4",
-              "name": "+ calculerCoutTotal(): double",
+              "name": "+ calculerCoutTotal(): float",
               "type": "ClassMethod",
               "owner": "441dd40b-0f37-4d2f-a603-864374d71ace",
               "bounds": {
                 "x": -329.5,
                 "y": 190.5,
-                "width": 309,
+                "width": 319,
                 "height": 30
               },
               "code": "",
@@ -812,7 +912,7 @@
               "bounds": {
                 "x": -329.5,
                 "y": 220.5,
-                "width": 309,
+                "width": 319,
                 "height": 30
               },
               "code": "",
@@ -831,7 +931,7 @@
               "bounds": {
                 "x": -329.5,
                 "y": 250.5,
-                "width": 309,
+                "width": 319,
                 "height": 30
               },
               "code": "",
@@ -869,7 +969,7 @@
               "owner": "af73d584-fac6-47a6-a544-f9593f7ab595",
               "bounds": {
                 "x": -239.5,
-                "y": 390.5,
+                "y": 400.5,
                 "width": 179,
                 "height": 30
               },
@@ -888,7 +988,7 @@
               "owner": "af73d584-fac6-47a6-a544-f9593f7ab595",
               "bounds": {
                 "x": -239.5,
-                "y": 420.5,
+                "y": 430.5,
                 "width": 179,
                 "height": 30
               },
@@ -907,7 +1007,7 @@
               "owner": "af73d584-fac6-47a6-a544-f9593f7ab595",
               "bounds": {
                 "x": -239.5,
-                "y": 450.5,
+                "y": 460.5,
                 "width": 179,
                 "height": 30
               },
@@ -921,12 +1021,12 @@
             },
             "fb71258d-f37f-45f8-84f7-51ef239b4f09": {
               "id": "fb71258d-f37f-45f8-84f7-51ef239b4f09",
-              "name": "+ getPrix(): double",
+              "name": "+ getPrix(): float",
               "type": "ClassMethod",
               "owner": "af73d584-fac6-47a6-a544-f9593f7ab595",
               "bounds": {
                 "x": -239.5,
-                "y": 480.5,
+                "y": 490.5,
                 "width": 179,
                 "height": 30
               },
@@ -944,7 +1044,7 @@
               "type": "Class",
               "owner": null,
               "bounds": {
-                "x": -140,
+                "x": -150,
                 "y": 580,
                 "width": 290,
                 "height": 100
@@ -962,7 +1062,7 @@
               "type": "ClassAttribute",
               "owner": "3bca7c9d-2b1b-49d8-b5c0-662aab4a7edc",
               "bounds": {
-                "x": -139.5,
+                "x": -149.5,
                 "y": 620.5,
                 "width": 289,
                 "height": 30
@@ -977,11 +1077,11 @@
             },
             "29868e90-42d3-4827-b2f2-e141c72d979b": {
               "id": "29868e90-42d3-4827-b2f2-e141c72d979b",
-              "name": "+ estDisponible(quantite: int): boolean",
+              "name": "+ estDisponible(quantite: int): bool",
               "type": "ClassMethod",
               "owner": "3bca7c9d-2b1b-49d8-b5c0-662aab4a7edc",
               "bounds": {
-                "x": -139.5,
+                "x": -149.5,
                 "y": 650.5,
                 "width": 289,
                 "height": 30
@@ -1000,7 +1100,7 @@
               "type": "Class",
               "owner": null,
               "bounds": {
-                "x": -520,
+                "x": -510,
                 "y": 580,
                 "width": 320,
                 "height": 100
@@ -1014,17 +1114,17 @@
             },
             "7ba6c41c-d3d0-4fea-bce0-b094f671ad92": {
               "id": "7ba6c41c-d3d0-4fea-bce0-b094f671ad92",
-              "name": "- typePrestation",
+              "name": "typePrestation",
               "type": "ClassAttribute",
               "owner": "c72baabf-42be-4626-8a9d-f7ff0cb28544",
               "bounds": {
-                "x": -519.5,
+                "x": -509.5,
                 "y": 620.5,
                 "width": 319,
                 "height": 30
               },
               "code": "",
-              "visibility": "public",
+              "visibility": "private",
               "attributeType": "str",
               "implementationType": "none",
               "stateMachineId": "",
@@ -1033,11 +1133,11 @@
             },
             "85e6633d-c100-427d-80e7-126dfd0b74a9": {
               "id": "85e6633d-c100-427d-80e7-126dfd0b74a9",
-              "name": "+ calculerCout(nbParticipants: int): double",
+              "name": "+ calculerCout(nbParticipants: int): float",
               "type": "ClassMethod",
               "owner": "c72baabf-42be-4626-8a9d-f7ff0cb28544",
               "bounds": {
-                "x": -519.5,
+                "x": -509.5,
                 "y": 650.5,
                 "width": 319,
                 "height": 30
@@ -1132,7 +1232,7 @@
               "owner": null,
               "bounds": {
                 "x": 620,
-                "y": -300,
+                "y": -340,
                 "width": 200,
                 "height": 160
               },
@@ -1152,13 +1252,13 @@
               "owner": "9f2d5a51-37b0-42a1-9b9f-0ffe4a3e78f0",
               "bounds": {
                 "x": 620.5,
-                "y": -259.5,
+                "y": -299.5,
                 "width": 199,
                 "height": 30
               },
               "code": "",
               "visibility": "private",
-              "attributeType": "str",
+              "attributeType": "float",
               "implementationType": "none",
               "stateMachineId": "",
               "quantumCircuitId": "",
@@ -1171,7 +1271,7 @@
               "owner": "9f2d5a51-37b0-42a1-9b9f-0ffe4a3e78f0",
               "bounds": {
                 "x": 620.5,
-                "y": -229.5,
+                "y": -269.5,
                 "width": 199,
                 "height": 30
               },
@@ -1185,12 +1285,12 @@
             },
             "c9f0f804-2d6a-4cb3-9064-d714a617d817": {
               "id": "c9f0f804-2d6a-4cb3-9064-d714a617d817",
-              "name": "+ getPrix(): double",
+              "name": "+ getPrix(): float",
               "type": "ClassMethod",
               "owner": "9f2d5a51-37b0-42a1-9b9f-0ffe4a3e78f0",
               "bounds": {
                 "x": 620.5,
-                "y": -199.5,
+                "y": -239.5,
                 "width": 199,
                 "height": 30
               },
@@ -1204,12 +1304,12 @@
             },
             "aeaa8fee-c333-4479-9f90-abf67e12e305": {
               "id": "aeaa8fee-c333-4479-9f90-abf67e12e305",
-              "name": "+ setPrix(prix: double)",
+              "name": "+ setPrix(prix: float)",
               "type": "ClassMethod",
               "owner": "9f2d5a51-37b0-42a1-9b9f-0ffe4a3e78f0",
               "bounds": {
                 "x": 620.5,
-                "y": -169.5,
+                "y": -209.5,
                 "width": 199,
                 "height": 30
               },
@@ -1312,7 +1412,7 @@
             },
             "320008ca-56a1-40e1-adb1-0085df99fc6e": {
               "id": "320008ca-56a1-40e1-adb1-0085df99fc6e",
-              "name": "+ chevauche(dateDebut: date, dateFin: date): boolean",
+              "name": "+ chevauche(dateDebut: date, dateFin: date): bool",
               "type": "ClassMethod",
               "owner": "6df824e3-c8a1-43d8-afee-1871d1320656",
               "bounds": {
@@ -1567,10 +1667,10 @@
               "type": "ClassBidirectional",
               "owner": null,
               "bounds": {
-                "x": -540,
-                "y": -315,
-                "width": 130,
-                "height": 48.77777862548828
+                "x": -740,
+                "y": -300,
+                "width": 250,
+                "height": 48
               },
               "path": [
                 {
@@ -1578,7 +1678,7 @@
                   "y": 10
                 },
                 {
-                  "x": 130,
+                  "x": 250,
                   "y": 10
                 }
               ],
@@ -1602,10 +1702,10 @@
               "type": "ClassBidirectional",
               "owner": null,
               "bounds": {
-                "x": -150,
+                "x": -70,
                 "y": -300,
-                "width": 210,
-                "height": 48.77777862548828
+                "width": 150,
+                "height": 48
               },
               "textColor": "black",
               "path": [
@@ -1614,7 +1714,7 @@
                   "y": 10
                 },
                 {
-                  "x": 210,
+                  "x": 150,
                   "y": 10
                 }
               ],
@@ -1638,7 +1738,7 @@
               "type": "ClassInheritance",
               "owner": null,
               "bounds": {
-                "x": -105,
+                "x": -110,
                 "y": 520,
                 "width": 10,
                 "height": 60
@@ -1673,7 +1773,7 @@
               "type": "ClassInheritance",
               "owner": null,
               "bounds": {
-                "x": -225,
+                "x": -220,
                 "y": 520,
                 "width": 10,
                 "height": 60
@@ -1709,9 +1809,9 @@
               "owner": null,
               "bounds": {
                 "x": -480,
-                "y": 90,
+                "y": 130,
                 "width": 150,
-                "height": 48.77777862548828
+                "height": 48
               },
               "path": [
                 {
@@ -1745,8 +1845,8 @@
               "bounds": {
                 "x": -155,
                 "y": 280,
-                "width": 18.902777671813965,
-                "height": 79.77777862548828
+                "width": 18.899999618530273,
+                "height": 79
               },
               "path": [
                 {
@@ -1778,10 +1878,10 @@
               "type": "ClassBidirectional",
               "owner": null,
               "bounds": {
-                "x": -20,
+                "x": -10,
                 "y": -280,
-                "width": 80,
-                "height": 428.7777786254883
+                "width": 90,
+                "height": 428
               },
               "path": [
                 {
@@ -1797,7 +1897,7 @@
                   "y": 10
                 },
                 {
-                  "x": 80,
+                  "x": 90,
                   "y": 10
                 }
               ],
@@ -1821,10 +1921,10 @@
               "type": "ClassBidirectional",
               "owner": null,
               "bounds": {
-                "x": 480,
-                "y": -230,
-                "width": 140,
-                "height": 48.77777862548828
+                "x": 500,
+                "y": -270,
+                "width": 120,
+                "height": 48
               },
               "path": [
                 {
@@ -1832,7 +1932,7 @@
                   "y": 10
                 },
                 {
-                  "x": 140,
+                  "x": 120,
                   "y": 10
                 }
               ],
@@ -1856,10 +1956,10 @@
               "type": "ClassBidirectional",
               "owner": null,
               "bounds": {
-                "x": 480,
+                "x": 500,
                 "y": -210,
-                "width": 120,
-                "height": 228.77777862548828
+                "width": 100,
+                "height": 228
               },
               "path": [
                 {
@@ -1867,15 +1967,15 @@
                   "y": 10
                 },
                 {
-                  "x": 60,
+                  "x": 50,
                   "y": 10
                 },
                 {
-                  "x": 60,
+                  "x": 50,
                   "y": 190
                 },
                 {
-                  "x": 120,
+                  "x": 100,
                   "y": 190
                 }
               ],
@@ -1892,58 +1992,11 @@
                 "role": ""
               },
               "isManuallyLayouted": false
-            },
-            "30def474-d135-4d60-9481-24e32f7fd8cf": {
-              "id": "30def474-d135-4d60-9481-24e32f7fd8cf",
-              "name": "",
-              "type": "Link",
-              "owner": null,
-              "bounds": {
-                "x": 370,
-                "y": -485,
-                "width": 210,
-                "height": 91
-              },
-              "path": [
-                {
-                  "x": 210,
-                  "y": 70
-                },
-                {
-                  "x": 170,
-                  "y": 70
-                },
-                {
-                  "x": 170,
-                  "y": 0
-                },
-                {
-                  "x": 5,
-                  "y": 0
-                },
-                {
-                  "x": 5,
-                  "y": 75
-                }
-              ],
-              "source": {
-                "direction": "Left",
-                "element": "12c88b42-623c-47a3-8f91-6dad05d2575a",
-                "multiplicity": "",
-                "role": ""
-              },
-              "target": {
-                "direction": "Topright",
-                "element": "91616ec5-22f7-4cf5-a68b-52d534c9c61d",
-                "multiplicity": "",
-                "role": ""
-              },
-              "isManuallyLayouted": false
             }
           },
           "assessments": {}
         },
-        "lastUpdate": "2026-03-12T21:15:42.314Z"
+        "lastUpdate": "2026-03-13T08:53:18.386Z"
       },
       "ObjectDiagram": {
         "id": "b4046e91-8766-41f8-9b97-d72ce237f108",
@@ -2044,6 +2097,6 @@
       "collaborationEnabled": false
     }
   },
-  "exportedAt": "2026-03-12T21:22:02.170Z",
+  "exportedAt": "2026-03-13T08:53:44.984Z",
   "version": "2.0.0"
 }
