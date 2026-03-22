@@ -49,7 +49,7 @@ NB: Nous voulions que la classe Supplement soit une interface , cependant, Besse
 
 - **Types de retour liste non supportés** : BESSER n'accepte pas les types de retour de la forme `List<Element>` ou `Element[]`. Les méthodes retournant une collection ont dû être simplifiées en retournant le type de base (`Element`, `Reservation`…).
 - **Diagramme d'objets limité à un seul champ attribut par objet** : l'éditeur d'objets de BESSER ne permet de renseigner qu'un seul attribut par instance. Il n'a donc pas été possible de détailler correctement les objets. Les valeurs complètes sont documentées dans le diagramme d'objets réalisé séparément sur draw.io
-- **Le nom des relations sur le diagramme de classe n'est pas visible**, cependant, c'est pressent sur besser, en configurant l'affichage, la mise en forme est gachée.
+- **Le nom des relations sur le diagramme de classe n'est pas visible**. Cependant, il est bien présent dans BESSER en configurant l'affichage. Le problème : lorsqu'on active cette option, la mise en forme du diagramme est dégradée.
 
 ---
 
