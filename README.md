@@ -18,7 +18,7 @@ Ce projet modélise un système de gestion de centres de congrès permettant à 
 | Diagramme de classes | BESSER WME |
 | Diagramme d'objets | draw.io |
 | Diagramme d'états | draw.io |
-| Diagrammes de séquence | draw.io |
+| Diagrammes de séquence | draw.io / StarUML |
 
 ---
 
@@ -97,6 +97,11 @@ Les cas d'utilisation ont été modélisés, respectant les normes UML 2.x (frag
 | `SupprimerReservation` | Guard `statut=ANNULEE`, notation `«destroy»` sur la lifeline |
 | `DefinirIndisponibiliteElement` | Vérification de conflit avec les réservations existantes avant création |
 | `AjouterSupplement` | `alt` Materiel (`estDisponible()`) / Prestation (`calculerCout()`) + recalcul `calculerCoutTotal()` |
+| `GestionElementsCentre` | Suppression et ajout d'un élement dans un centre |
+| `ConsultationStatistiques` | Génération des statistiques avec CentreCongres(`getStats()`) |
+| `GestionTarifElement` | Modification du tarif d'un élément |
+
+
 
 ---
 
