@@ -100,6 +100,7 @@ Les cas d'utilisation ont été modélisés, respectant les normes UML 2.x (frag
 | `GestionElementsCentre` | Suppression et ajout d'un élement dans un centre |
 | `ConsultationStatistiques` | Génération des statistiques avec CentreCongres(`getStats()`) |
 | `GestionTarifElement` | Modification du tarif d'un élément |
+| `ConfigurationCentreCongres` | Création d'un centre et enregistrement dans la base de données |
 
 
 
